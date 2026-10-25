@@ -1,0 +1,356 @@
+[
+ {
+  "key": "plaster",
+  "asset": "white_plaster_rough_01",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "asphalt",
+  "asset": "Asphalt021",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "pavers",
+  "asset": "Concrete012",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "cobble",
+  "asset": "cobblestone_floor_001",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "brick",
+  "asset": "Bricks066",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "stone",
+  "asset": "rustic_stone_wall_02",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "plaster2",
+  "asset": "clay_plaster",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "shutter",
+  "asset": "wood_shutter",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "rooftiles",
+  "asset": "clay_roof_tiles_03",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "sky_citrus_orchard",
+  "asset": "citrus_orchard_puresky",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "strata",
+  "asset": "cliff_side",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "lawn",
+  "asset": "aerial_grass_rock",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "dirt",
+  "asset": "forest_ground_04",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "flagstone",
+  "asset": "stone_pathway",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "humus",
+  "asset": "forest_leaves_02",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "drystone",
+  "asset": "stone_wall",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "sand",
+  "asset": "dense_sand",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "ash",
+  "asset": "gravel_stones",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "ashlar",
+  "asset": "seaworn_sandstone_brick",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "concrete",
+  "asset": "concrete_wall_009",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "snow",
+  "asset": "snow_02",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "snowpack",
+  "asset": "snow_01",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "rock",
+  "asset": "rock_face",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "boards",
+  "asset": "wooden_planks",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "slate",
+  "asset": "roof_slates_03",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "barkw",
+  "asset": "pine_bark",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "bark",
+  "asset": "bark_willow_02",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "pathgravel",
+  "asset": "gravel_floor_02",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "pise",
+  "asset": "excavated_soil_wall",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "adobe",
+  "asset": "clay_block_wall",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "galets",
+  "asset": "dry_river_pebbles",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "vase",
+  "asset": "mud_cracked_dry_riverbed_002",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "tenue-toile",
+  "asset": "rough_linen",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "tenue-tricot",
+  "asset": "knitted_fleece",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "tenue-cuir",
+  "asset": "brown_leather",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "arme-voile",
+  "asset": "SurfaceImperfections008",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "arme-rayures",
+  "asset": "Scratches003",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "arme-marbrure",
+  "asset": "Plastic010",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "arme-bois",
+  "asset": "european_walnut_veneer_04",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "usure-grain",
+  "asset": "SurfaceImperfections017",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "usure-taches",
+  "asset": "SurfaceImperfections013",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "usure-coulures",
+  "asset": "SurfaceImperfections003",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "reg",
+  "asset": "sandy_gravel_02",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "cardboard",
+  "asset": "Cardboard004",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "rust",
+  "asset": "rust_coarse_01",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "steel",
+  "asset": "Metal062C",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "rollshutter",
+  "asset": "rusty_metal_shutter",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "burlap",
+  "asset": "hessian_230",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "paintwood",
+  "asset": "distressed_painted_planks",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "palmbark",
+  "asset": "palm_tree_bark",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "wood",
+  "asset": "weathered_brown_planks",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "timber",
+  "asset": "rough_wood",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "canvas",
+  "asset": "Fabric066",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "laine",
+  "asset": "Fabric031",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "linge",
+  "asset": "rough_linen",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "crate",
+  "asset": "brown_planks_09",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "mecha",
+  "asset": "green_metal_rust",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "mecha-usure",
+  "asset": "PaintedMetal004",
+  "source": "ambientCG",
+  "licence": "CC0 1.0"
+ },
+ {
+  "key": "mechadark",
+  "asset": "blue_metal_plate",
+  "source": "Poly Haven",
+  "licence": "CC0 1.0"
+ }
+]

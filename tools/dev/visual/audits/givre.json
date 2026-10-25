@@ -1,0 +1,206 @@
+{
+ "carte": "givre",
+ "nom": "Val-Blanc",
+ "date": "2026-10-21",
+ "mesures": {
+  "type": "mid",
+  "vueMoyenne": 7.6,
+  "solVueCourte": 24.5,
+  "vuesPlus60m": 5.7,
+  "partPlace": 20.2,
+  "partEnHauteur": 3.3,
+  "marche": [
+   90.8,
+   99.3
+  ],
+  "routes": 5,
+  "impasses": 2,
+  "detour90": 1.91,
+  "carrefours": 14,
+  "repere": 65.8,
+  "goulot": {
+   "front": 10,
+   "passages": 7,
+   "detail": [
+    {
+     "ou": [
+      -14.5,
+      2.5
+     ],
+     "largeur": 3,
+     "zone": "Gallery"
+    },
+    {
+     "ou": [
+      1,
+      7.5
+     ],
+     "largeur": 2,
+     "zone": "High Street"
+    },
+    {
+     "ou": [
+      5.5,
+      1.5
+     ],
+     "largeur": 1,
+     "zone": "Station yard"
+    },
+    {
+     "ou": [
+      18.5,
+      3.5
+     ],
+     "largeur": 1,
+     "zone": "Sawmill"
+    },
+    {
+     "ou": [
+      22.5,
+      5.5
+     ],
+     "largeur": 1,
+     "zone": "Sawmill"
+    },
+    {
+     "ou": [
+      -22.5,
+      7.5
+     ],
+     "largeur": 1,
+     "zone": "Gallery"
+    },
+    {
+     "ou": [
+      -10.5,
+      7.5
+     ],
+     "largeur": 1,
+     "zone": "Platform"
+    }
+   ]
+  },
+  "viragesSerres": 0,
+  "viragesOu": [],
+  "points": [
+   {
+    "nom": "A",
+    "point": [
+     9,
+     36.5
+    ],
+    "entrees": 3,
+    "praticable": 86,
+    "couverts9m": 30,
+    "marche": [
+     17.2,
+     92.2
+    ],
+    "vuDesApparitions": [
+     9,
+     0
+    ]
+   },
+   {
+    "nom": "B",
+    "point": [
+     -2,
+     0
+    ],
+    "entrees": 4,
+    "praticable": 78,
+    "couverts9m": 15,
+    "marche": [
+     53.9,
+     54.8
+    ],
+    "vuDesApparitions": [
+     0,
+     0
+    ]
+   },
+   {
+    "nom": "C",
+    "point": [
+     -11.5,
+     -33.5
+    ],
+    "entrees": 4,
+    "praticable": 76,
+    "couverts9m": 11,
+    "marche": [
+     87.8,
+     22.1
+    ],
+    "vuDesApparitions": [
+     0,
+     0
+    ]
+   }
+  ]
+ },
+ "defauts": {
+  "navigation": [],
+  "decor": {
+   "portes": 0,
+   "pots": 0,
+   "affiches": 0,
+   "velos": 0,
+   "ponts": 0,
+   "sable": 0,
+   "recouvrements": 0,
+   "liste": []
+  },
+  "fentes": {
+   "fentes": 0,
+   "passeBalles": 0,
+   "trous": 0,
+   "marges": 36,
+   "margesPlus30cm": 36,
+   "liste": [
+    "marge 14.39 m (-9.95, 55.2) concrete",
+    "marge 13.92 m (-9.95, -55.2) concrete",
+    "marge 7.32 m (5.13, 44.5) metal",
+    "marge 7.32 m (5.13, -44.5) metal",
+    "marge 7.3 m (2, 18.15) metal",
+    "marge 7.3 m (2, -25.85) metal",
+    "marge 6.7 m (-2.25, 6.78) concrete",
+    "marge 6.7 m (-2.25, -6.78) concrete",
+    "marge 5.4 m (14.5, 2.25) wood",
+    "marge 5.4 m (14.5, -7.75) wood",
+    "marge 4.45 m (20.4, -4.85) metal",
+    "marge 3 m (-21.15, 0.35) metal",
+    "marge 2.7 m (19, 0) metal",
+    "marge 2.6 m (-17.3, -1.35) wood",
+    "marge 2.3 m (13.55, -32.11) wood",
+    "marge 2.2 m (-10.7, -1.15) wood",
+    "marge 1.75 m (4.78, -4.75) concrete",
+    "marge 1.75 m (4.78, 4.75) concrete",
+    "marge 1.6 m (-2, 36.35) wood",
+    "marge 1.6 m (-2, -38.05) wood"
+   ]
+  },
+  "accroches": {
+   "nombre": 0,
+   "chemins": 160,
+   "liste": []
+  },
+  "zfight": {
+   "visibles": 64,
+   "bloquants": 0,
+   "liste": []
+  }
+ },
+ "hors": [
+  "vue moyenne (m) 7.6 (9 à 13)",
+  "sol à vue courte (%) 24.5 (5 à 20)",
+  "part de place (%) 20.2 (25 à 45)",
+  "détour au 90e centile 1.91 (1,5 au plus)",
+  "carrefours sur la route la plus courte 14 (8 au plus)",
+  "A à 17.2 m de marche de sa base (20 à 30)",
+  "A vu de plus d'un tiers des apparitions de son camp"
+ ],
+ "acceptes": [],
+ "bloquants": 0,
+ "minutes": 1
+}

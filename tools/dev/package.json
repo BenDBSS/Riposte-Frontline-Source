@@ -1,0 +1,13 @@
+{
+  "name": "riposte-frontline-outils",
+  "private": true,
+  "description": "Outils de développement facultatifs (banc de mesure du rendu : bench.js ; test de l'API des comptes : api-test.js ; contrôle du code réduit : check_minif.js)",
+  "dependencies": {
+    "@pmndrs/assets": "1.7.0",
+    "playwright-core": "1.63.0",
+    "three": "0.147.0",
+    "@electric-sql/pglite": "0.5.8",
+    "@neondatabase/serverless": "1.2.0",
+    "acorn": "8.15.0"
+  }
+}

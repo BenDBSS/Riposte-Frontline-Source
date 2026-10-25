@@ -1,0 +1,857 @@
+{
+ "fps": 30,
+ "stride": 31,
+ "layout": "bassin xyz (/1e4 m), bassin qxyzw (/32767), buste qxyzw, tête qxyzw, cheville gauche xyz (/1e4), cheville droite xyz, inclinaison g d (/1e4 rad), lacet g d (/1e4 rad), genou gauche xyz (/1e4, repère du bassin), genou droit xyz",
+ "clips": [
+  {
+   "id": "fusil/debout/idle",
+   "n": 63,
+   "o": 0,
+   "loop": true,
+   "dur": 2.1,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.9284,
+   "head": [
+    1.534,
+    1.545
+   ]
+  },
+  {
+   "id": "fusil/debout/idle-visee",
+   "n": 63,
+   "o": 63,
+   "loop": true,
+   "dur": 2.1,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.9558,
+   "head": [
+    1.511,
+    1.523
+   ]
+  },
+  {
+   "id": "fusil/debout/marche-avant",
+   "n": 30,
+   "o": 126,
+   "loop": true,
+   "dur": 1,
+   "v": 1.861,
+   "dir": 0,
+   "cyc": 1.861,
+   "k": 0.9618,
+   "ph": 9,
+   "ty": -0.4213,
+   "head": [
+    1.372,
+    1.426
+   ]
+  },
+  {
+   "id": "fusil/debout/marche-avant-gauche",
+   "n": 30,
+   "o": 156,
+   "loop": true,
+   "dur": 1,
+   "v": 1.861,
+   "dir": 45,
+   "cyc": 1.861,
+   "k": 0.9618,
+   "ph": 9,
+   "ty": -0.5872,
+   "head": [
+    1.395,
+    1.454
+   ]
+  },
+  {
+   "id": "fusil/debout/marche-gauche",
+   "n": 30,
+   "o": 186,
+   "loop": true,
+   "dur": 1,
+   "v": 1.861,
+   "dir": 90,
+   "cyc": 1.861,
+   "k": 0.9618,
+   "ph": 10,
+   "ty": -0.7224,
+   "head": [
+    1.321,
+    1.414
+   ]
+  },
+  {
+   "id": "fusil/debout/marche-arriere-gauche",
+   "n": 30,
+   "o": 216,
+   "loop": true,
+   "dur": 1,
+   "v": 1.861,
+   "dir": 135,
+   "cyc": 1.861,
+   "k": 0.9618,
+   "ph": 9,
+   "ty": -0.9604,
+   "head": [
+    1.417,
+    1.482
+   ]
+  },
+  {
+   "id": "fusil/debout/marche-arriere",
+   "n": 30,
+   "o": 246,
+   "loop": true,
+   "dur": 1,
+   "v": 1.861,
+   "dir": -180,
+   "cyc": 1.861,
+   "k": 0.9618,
+   "ph": 7,
+   "ty": -0.7835,
+   "head": [
+    1.399,
+    1.456
+   ]
+  },
+  {
+   "id": "fusil/debout/marche-arriere-droite",
+   "n": 30,
+   "o": 276,
+   "loop": true,
+   "dur": 1,
+   "v": 1.861,
+   "dir": -135,
+   "cyc": 1.861,
+   "k": 0.9618,
+   "ph": 7,
+   "ty": -0.5059,
+   "head": [
+    1.405,
+    1.465
+   ]
+  },
+  {
+   "id": "fusil/debout/marche-droite",
+   "n": 30,
+   "o": 306,
+   "loop": true,
+   "dur": 1,
+   "v": 1.861,
+   "dir": -90,
+   "cyc": 1.861,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.8482,
+   "head": [
+    1.354,
+    1.452
+   ]
+  },
+  {
+   "id": "fusil/debout/marche-avant-droite",
+   "n": 30,
+   "o": 336,
+   "loop": true,
+   "dur": 1,
+   "v": 1.861,
+   "dir": -45,
+   "cyc": 1.861,
+   "k": 0.9618,
+   "ph": 11,
+   "ty": -0.4654,
+   "head": [
+    1.356,
+    1.425
+   ]
+  },
+  {
+   "id": "fusil/debout/course-avant",
+   "n": 15,
+   "o": 366,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.653,
+   "dir": 0,
+   "cyc": 2.327,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.772,
+   "head": [
+    1.377,
+    1.473
+   ]
+  },
+  {
+   "id": "fusil/debout/course-avant-gauche",
+   "n": 15,
+   "o": 381,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.653,
+   "dir": 45,
+   "cyc": 2.327,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.2933,
+   "head": [
+    1.449,
+    1.554
+   ]
+  },
+  {
+   "id": "fusil/debout/course-gauche",
+   "n": 15,
+   "o": 396,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.653,
+   "dir": 90,
+   "cyc": 2.327,
+   "k": 0.9618,
+   "ph": 7,
+   "ty": -0.8385,
+   "head": [
+    1.477,
+    1.554
+   ]
+  },
+  {
+   "id": "fusil/debout/course-arriere-gauche",
+   "n": 15,
+   "o": 411,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.653,
+   "dir": 135,
+   "cyc": 2.327,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.6438,
+   "head": [
+    1.459,
+    1.53
+   ]
+  },
+  {
+   "id": "fusil/debout/course-arriere",
+   "n": 15,
+   "o": 426,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.653,
+   "dir": -180,
+   "cyc": 2.327,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.6103,
+   "head": [
+    1.459,
+    1.538
+   ]
+  },
+  {
+   "id": "fusil/debout/course-arriere-droite",
+   "n": 15,
+   "o": 441,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.653,
+   "dir": -135,
+   "cyc": 2.327,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.2985,
+   "head": [
+    1.475,
+    1.54
+   ]
+  },
+  {
+   "id": "fusil/debout/course-droite",
+   "n": 15,
+   "o": 456,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.653,
+   "dir": -90,
+   "cyc": 2.327,
+   "k": 0.9618,
+   "ph": 5,
+   "ty": -0.9312,
+   "head": [
+    1.425,
+    1.496
+   ]
+  },
+  {
+   "id": "fusil/debout/course-avant-droite",
+   "n": 15,
+   "o": 471,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.653,
+   "dir": -45,
+   "cyc": 2.327,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.7493,
+   "head": [
+    1.467,
+    1.539
+   ]
+  },
+  {
+   "id": "fusil/debout/sprint-avant",
+   "n": 15,
+   "o": 486,
+   "loop": true,
+   "dur": 0.5,
+   "v": 6.98,
+   "dir": 0,
+   "cyc": 3.49,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": 0.0468,
+   "head": [
+    1.365,
+    1.435
+   ]
+  },
+  {
+   "id": "fusil/debout/sprint-avant-gauche",
+   "n": 15,
+   "o": 501,
+   "loop": true,
+   "dur": 0.5,
+   "v": 6.98,
+   "dir": 45,
+   "cyc": 3.49,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": 0.2086,
+   "head": [
+    1.478,
+    1.519
+   ]
+  },
+  {
+   "id": "fusil/debout/sprint-avant-droite",
+   "n": 15,
+   "o": 516,
+   "loop": true,
+   "dur": 0.5,
+   "v": 6.98,
+   "dir": -45,
+   "cyc": 3.49,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.3216,
+   "head": [
+    1.424,
+    1.49
+   ]
+  },
+  {
+   "id": "fusil/debout/pivot-90-gauche",
+   "n": 31,
+   "o": 531,
+   "loop": false,
+   "dur": 0.9833,
+   "v": 0.018,
+   "dir": null,
+   "cyc": 0.018,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": 0.1392,
+   "head": [
+    1.517,
+    1.545
+   ]
+  },
+  {
+   "id": "fusil/debout/pivot-90-droite",
+   "n": 31,
+   "o": 562,
+   "loop": false,
+   "dur": 0.9833,
+   "v": 0.018,
+   "dir": null,
+   "cyc": 0.018,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -1.7199,
+   "head": [
+    1.521,
+    1.548
+   ]
+  },
+  {
+   "id": "fusil/accroupi/idle",
+   "n": 63,
+   "o": 593,
+   "loop": true,
+   "dur": 2.1,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.4929,
+   "head": [
+    0.992,
+    1.007
+   ]
+  },
+  {
+   "id": "fusil/accroupi/idle-visee",
+   "n": 63,
+   "o": 656,
+   "loop": true,
+   "dur": 2.1,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.5011,
+   "head": [
+    0.984,
+    0.994
+   ]
+  },
+  {
+   "id": "fusil/accroupi/marche-avant",
+   "n": 30,
+   "o": 719,
+   "loop": true,
+   "dur": 1,
+   "v": 1.975,
+   "dir": 0,
+   "cyc": 1.975,
+   "k": 0.9618,
+   "ph": 10,
+   "ty": -0.4904,
+   "head": [
+    1.157,
+    1.187
+   ]
+  },
+  {
+   "id": "fusil/accroupi/marche-avant-gauche",
+   "n": 30,
+   "o": 749,
+   "loop": true,
+   "dur": 1,
+   "v": 1.975,
+   "dir": 45,
+   "cyc": 1.975,
+   "k": 0.9618,
+   "ph": 9,
+   "ty": -0.3254,
+   "head": [
+    1.175,
+    1.211
+   ]
+  },
+  {
+   "id": "fusil/accroupi/marche-gauche",
+   "n": 30,
+   "o": 779,
+   "loop": true,
+   "dur": 1,
+   "v": 1.975,
+   "dir": 90,
+   "cyc": 1.975,
+   "k": 0.9618,
+   "ph": 9,
+   "ty": -0.8806,
+   "head": [
+    1.174,
+    1.205
+   ]
+  },
+  {
+   "id": "fusil/accroupi/marche-arriere-gauche",
+   "n": 30,
+   "o": 809,
+   "loop": true,
+   "dur": 1,
+   "v": 1.975,
+   "dir": 135,
+   "cyc": 1.975,
+   "k": 0.9618,
+   "ph": 8,
+   "ty": -0.6707,
+   "head": [
+    1.171,
+    1.204
+   ]
+  },
+  {
+   "id": "fusil/accroupi/marche-arriere",
+   "n": 30,
+   "o": 839,
+   "loop": true,
+   "dur": 1,
+   "v": 1.975,
+   "dir": 180,
+   "cyc": 1.975,
+   "k": 0.9618,
+   "ph": 7,
+   "ty": -0.6836,
+   "head": [
+    1.197,
+    1.227
+   ]
+  },
+  {
+   "id": "fusil/accroupi/marche-arriere-droite",
+   "n": 30,
+   "o": 869,
+   "loop": true,
+   "dur": 1,
+   "v": 1.975,
+   "dir": -135,
+   "cyc": 1.975,
+   "k": 0.9618,
+   "ph": 8,
+   "ty": -0.3177,
+   "head": [
+    1.17,
+    1.208
+   ]
+  },
+  {
+   "id": "fusil/accroupi/marche-droite",
+   "n": 30,
+   "o": 899,
+   "loop": true,
+   "dur": 1,
+   "v": 1.975,
+   "dir": -90,
+   "cyc": 1.975,
+   "k": 0.9618,
+   "ph": 9,
+   "ty": -0.8718,
+   "head": [
+    1.164,
+    1.203
+   ]
+  },
+  {
+   "id": "fusil/accroupi/marche-avant-droite",
+   "n": 30,
+   "o": 929,
+   "loop": true,
+   "dur": 1,
+   "v": 1.975,
+   "dir": -45,
+   "cyc": 1.975,
+   "k": 0.9618,
+   "ph": 8,
+   "ty": -0.6712,
+   "head": [
+    1.125,
+    1.184
+   ]
+  },
+  {
+   "id": "fusil/accroupi/pivot-90-gauche",
+   "n": 39,
+   "o": 959,
+   "loop": false,
+   "dur": 1.25,
+   "v": 0.01,
+   "dir": null,
+   "cyc": 0.013,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": 0.713,
+   "head": [
+    1.001,
+    1.115
+   ]
+  },
+  {
+   "id": "fusil/accroupi/pivot-90-droite",
+   "n": 39,
+   "o": 998,
+   "loop": false,
+   "dur": 1.25,
+   "v": 0.01,
+   "dir": null,
+   "cyc": 0.013,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -1.6184,
+   "head": [
+    1.004,
+    1.191
+   ]
+  },
+  {
+   "id": "fusil/saut/depart",
+   "n": 17,
+   "o": 1037,
+   "loop": false,
+   "dur": 0.5333,
+   "v": 0.014,
+   "dir": null,
+   "cyc": 0.008,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.9716,
+   "head": [
+    1.184,
+    1.545
+   ]
+  },
+  {
+   "id": "fusil/saut/vol",
+   "n": 30,
+   "o": 1054,
+   "loop": true,
+   "dur": 1,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.9668,
+   "head": [
+    1.494,
+    1.5
+   ]
+  },
+  {
+   "id": "fusil/saut/reception",
+   "n": 21,
+   "o": 1084,
+   "loop": false,
+   "dur": 0.6667,
+   "v": 0.012,
+   "dir": null,
+   "cyc": 0.008,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.9475,
+   "head": [
+    1.279,
+    1.545
+   ]
+  },
+  {
+   "id": "pistolet/idle",
+   "n": 40,
+   "o": 1105,
+   "loop": true,
+   "dur": 1.3333,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.495,
+   "head": [
+    1.536,
+    1.543
+   ]
+  },
+  {
+   "id": "pistolet/marche-avant",
+   "n": 24,
+   "o": 1145,
+   "loop": true,
+   "dur": 0.7833,
+   "v": 2.631,
+   "dir": 0,
+   "cyc": 2.061,
+   "k": 0.9618,
+   "ph": 7,
+   "ty": -0.5207,
+   "head": [
+    1.482,
+    1.552
+   ]
+  },
+  {
+   "id": "pistolet/marche-arriere",
+   "n": 30,
+   "o": 1169,
+   "loop": true,
+   "dur": 1.0167,
+   "v": 1.439,
+   "dir": 180,
+   "cyc": 1.463,
+   "k": 0.9618,
+   "ph": 8,
+   "ty": -0.6182,
+   "head": [
+    1.444,
+    1.52
+   ]
+  },
+  {
+   "id": "pistolet/course-avant",
+   "n": 15,
+   "o": 1199,
+   "loop": true,
+   "dur": 0.5,
+   "v": 4.788,
+   "dir": 0,
+   "cyc": 2.394,
+   "k": 0.9618,
+   "ph": 6,
+   "ty": -0.503,
+   "head": [
+    1.468,
+    1.528
+   ]
+  },
+  {
+   "id": "pistolet/course-arriere",
+   "n": 16,
+   "o": 1214,
+   "loop": true,
+   "dur": 0.5333,
+   "v": 3.328,
+   "dir": -180,
+   "cyc": 1.775,
+   "k": 0.9618,
+   "ph": 7,
+   "ty": -0.3465,
+   "head": [
+    1.428,
+    1.499
+   ]
+  },
+  {
+   "id": "pistolet/pas-lateral-gauche",
+   "n": 17,
+   "o": 1230,
+   "loop": true,
+   "dur": 0.5667,
+   "v": 2.171,
+   "dir": 90,
+   "cyc": 1.23,
+   "k": 0.9618,
+   "ph": 9,
+   "ty": -0.6155,
+   "head": [
+    1.406,
+    1.455
+   ]
+  },
+  {
+   "id": "pistolet/pas-lateral-droite",
+   "n": 18,
+   "o": 1247,
+   "loop": true,
+   "dur": 0.6,
+   "v": 2.438,
+   "dir": -90,
+   "cyc": 1.463,
+   "k": 0.9618,
+   "ph": 4,
+   "ty": -0.3853,
+   "head": [
+    1.383,
+    1.483
+   ]
+  },
+  {
+   "id": "actions/glissade",
+   "n": 47,
+   "o": 1265,
+   "loop": false,
+   "dur": 1.5333,
+   "v": 4.201,
+   "dir": 0,
+   "cyc": 6.441,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.5048,
+   "head": [
+    0.435,
+    1.526
+   ]
+  },
+  {
+   "id": "actions/coup-recu",
+   "n": 14,
+   "o": 1312,
+   "loop": false,
+   "dur": 0.4333,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.8466,
+   "head": [
+    1.527,
+    1.556
+   ]
+  },
+  {
+   "id": "actions/tir-recul",
+   "n": 9,
+   "o": 1326,
+   "loop": false,
+   "dur": 0.25,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.7888,
+   "head": [
+    1.532,
+    1.536
+   ]
+  },
+  {
+   "id": "actions/lancer-grenade",
+   "n": 97,
+   "o": 1335,
+   "loop": false,
+   "dur": 3.2,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.6718,
+   "head": [
+    1.308,
+    1.577
+   ]
+  },
+  {
+   "id": "actions/rechargement",
+   "n": 100,
+   "o": 1432,
+   "loop": false,
+   "dur": 3.3,
+   "v": 0,
+   "dir": null,
+   "cyc": 0,
+   "k": 0.9618,
+   "ph": 0,
+   "ty": -0.616,
+   "head": [
+    1.532,
+    1.566
+   ]
+  }
+ ]
+}

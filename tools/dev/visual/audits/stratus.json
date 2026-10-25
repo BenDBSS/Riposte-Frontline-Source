@@ -1,0 +1,181 @@
+{
+ "carte": "stratus",
+ "nom": "Stratus",
+ "date": "2026-10-21",
+ "mesures": {
+  "type": "open",
+  "vueMoyenne": 16.7,
+  "solVueCourte": 0,
+  "vuesPlus60m": 32.3,
+  "partPlace": 29.2,
+  "partEnHauteur": 5,
+  "marche": [
+   93.7,
+   103.2
+  ],
+  "routes": 4,
+  "impasses": 0,
+  "detour90": 1.33,
+  "carrefours": 2,
+  "repere": 85.8,
+  "goulot": {
+   "front": 13,
+   "passages": 4,
+   "detail": [
+    {
+     "ou": [
+      0,
+      9.5
+     ],
+     "largeur": 4,
+     "zone": "Sanctuary"
+    },
+    {
+     "ou": [
+      -26.5,
+      9.5
+     ],
+     "largeur": 3,
+     "zone": "Lighthouse"
+    },
+    {
+     "ou": [
+      22.5,
+      9.5
+     ],
+     "largeur": 3,
+     "zone": "Grove"
+    },
+    {
+     "ou": [
+      32.5,
+      10.5
+     ],
+     "largeur": 3,
+     "zone": "Suspension bridge"
+    }
+   ]
+  },
+  "viragesSerres": 0,
+  "viragesOu": [],
+  "points": [
+   {
+    "nom": "A",
+    "point": [
+     -14.5,
+     42.5
+    ],
+    "entrees": 3,
+    "praticable": 72,
+    "couverts9m": 26,
+    "marche": [
+     16,
+     102.8
+    ],
+    "vuDesApparitions": [
+     11,
+     0
+    ]
+   },
+   {
+    "nom": "B",
+    "point": [
+     0.5,
+     0
+    ],
+    "entrees": 4,
+    "praticable": 78,
+    "couverts9m": 14,
+    "marche": [
+     52.8,
+     53.2
+    ],
+    "vuDesApparitions": [
+     0,
+     0
+    ]
+   },
+   {
+    "nom": "C",
+    "point": [
+     23,
+     -42.5
+    ],
+    "entrees": 4,
+    "praticable": 73,
+    "couverts9m": 14,
+    "marche": [
+     105.3,
+     25.7
+    ],
+    "vuDesApparitions": [
+     0,
+     11
+    ]
+   }
+  ]
+ },
+ "defauts": {
+  "navigation": [],
+  "decor": {
+   "portes": 0,
+   "pots": 0,
+   "affiches": 0,
+   "velos": 0,
+   "ponts": 0,
+   "sable": 0,
+   "recouvrements": 0,
+   "liste": []
+  },
+  "fentes": {
+   "fentes": 0,
+   "passeBalles": 0,
+   "trous": 0,
+   "marges": 138,
+   "margesPlus30cm": 138,
+   "liste": [
+    "marge 4.2 m (-12.4, 48.35) dirt",
+    "marge 4.2 m (12.4, 48.35) dirt",
+    "marge 4.2 m (-12.4, -52.65) dirt",
+    "marge 4.2 m (12.4, -52.65) dirt",
+    "marge 1.6 m (0.1, -47.05) concrete",
+    "marge 0.9 m (18.85, 18.95) concrete",
+    "marge 0.9 m (18.43, -20.23) concrete",
+    "marge 0.9 m (18.85, -19.95) concrete",
+    "marge 0.84 m (20.13, 21.7) concrete",
+    "marge 0.84 m (33.93, 28.6) concrete",
+    "marge 0.84 m (20.13, -21.7) concrete",
+    "marge 0.84 m (33.93, -28.6) concrete",
+    "marge 0.84 m (27.26, 6.97) concrete",
+    "marge 0.84 m (26.95, -6.78) concrete",
+    "marge 0.83 m (17.66, 20.58) concrete",
+    "marge 0.83 m (18.47, 18.22) concrete",
+    "marge 0.83 m (17.66, -20.58) concrete",
+    "marge 0.83 m (18.08, -20.3) concrete",
+    "marge 0.83 m (18.47, -18.22) concrete",
+    "marge 0.81 m (-21.9, 28.74) concrete"
+   ]
+  },
+  "accroches": {
+   "nombre": 0,
+   "chemins": 160,
+   "liste": []
+  },
+  "zfight": {
+   "visibles": 0,
+   "bloquants": 0,
+   "liste": []
+  }
+ },
+ "hors": [
+  "A à 16 m de marche de sa base (20 à 30)",
+  "A vu de plus d'un tiers des apparitions de son camp",
+  "C vu de plus d'un tiers des apparitions de son camp"
+ ],
+ "acceptes": [
+  "vues de plus de 60 m (%) 32.3 (15 à 30)",
+  "part de place (%) 29.2 (40 à 100)"
+ ],
+ "bloquants": 0,
+ "minutes": 1.3
+}
