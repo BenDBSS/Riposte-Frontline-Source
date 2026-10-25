@@ -1,0 +1,218 @@
+{
+ "carte": "meltem",
+ "nom": "Meltem",
+ "date": "2026-10-21",
+ "mesures": {
+  "type": "close",
+  "vueMoyenne": 8.5,
+  "solVueCourte": 26.8,
+  "vuesPlus60m": 6.3,
+  "partPlace": 20.2,
+  "partEnHauteur": 6.4,
+  "marche": [
+   89.6,
+   99.1
+  ],
+  "routes": 5,
+  "impasses": 1,
+  "detour90": 1.33,
+  "carrefours": 9,
+  "repere": 61.9,
+  "goulot": {
+   "front": 22,
+   "passages": 8,
+   "detail": [
+    {
+     "ou": [
+      -18.5,
+      7.5
+     ],
+     "largeur": 7,
+     "zone": "Alleys"
+    },
+    {
+     "ou": [
+      -8,
+      5.5
+     ],
+     "largeur": 4,
+     "zone": "Plane Tree Square"
+    },
+    {
+     "ou": [
+      10.5,
+      1.5
+     ],
+     "largeur": 3,
+     "zone": "Apse Lane"
+    },
+    {
+     "ou": [
+      -28,
+      4.5
+     ],
+     "largeur": 2,
+     "zone": "Waterfront"
+    },
+    {
+     "ou": [
+      25,
+      9.5
+     ],
+     "largeur": 2,
+     "zone": "Chora"
+    },
+    {
+     "ou": [
+      19,
+      10.5
+     ],
+     "largeur": 2,
+     "zone": "Chora"
+    },
+    {
+     "ou": [
+      -3.5,
+      4.5
+     ],
+     "largeur": 1,
+     "zone": "Alleys"
+    },
+    {
+     "ou": [
+      -24.5,
+      8.5
+     ],
+     "largeur": 1,
+     "zone": "Waterfront"
+    }
+   ]
+  },
+  "viragesSerres": 0,
+  "viragesOu": [],
+  "points": [
+   {
+    "nom": "A",
+    "point": [
+     -10,
+     36
+    ],
+    "entrees": 4,
+    "praticable": 88,
+    "couverts9m": 13,
+    "marche": [
+     21.4,
+     92.6
+    ],
+    "vuDesApparitions": [
+     8,
+     0
+    ]
+   },
+   {
+    "nom": "B",
+    "point": [
+     -20,
+     0
+    ],
+    "entrees": 4,
+    "praticable": 88,
+    "couverts9m": 5,
+    "marche": [
+     58.7,
+     59.7
+    ],
+    "vuDesApparitions": [
+     0,
+     0
+    ]
+   },
+   {
+    "nom": "C",
+    "point": [
+     -10.5,
+     -36
+    ],
+    "entrees": 4,
+    "praticable": 95,
+    "couverts9m": 12,
+    "marche": [
+     92.4,
+     22.3
+    ],
+    "vuDesApparitions": [
+     0,
+     7
+    ]
+   }
+  ]
+ },
+ "defauts": {
+  "navigation": [],
+  "decor": {
+   "portes": 0,
+   "pots": 0,
+   "affiches": 0,
+   "velos": 0,
+   "ponts": 0,
+   "sable": 0,
+   "recouvrements": 0,
+   "liste": []
+  },
+  "fentes": {
+   "fentes": 0,
+   "passeBalles": 0,
+   "trous": 0,
+   "marges": 39,
+   "margesPlus30cm": 39,
+   "liste": [
+    "marge 6.03 m (-26.2, 45.87) wood",
+    "marge 6.03 m (-25.5, -29.13) wood",
+    "marge 6 m (-25.5, 29.13) wood",
+    "marge 6 m (-26.2, -45.87) wood",
+    "marge 0.92 m (-16.94, 45) wood",
+    "marge 0.92 m (-16.94, -45) wood",
+    "marge 0.67 m (7.35, -2.15) concrete",
+    "marge 0.67 m (-0.53, 43.69) wood",
+    "marge 0.67 m (7.82, 45.82) wood",
+    "marge 0.67 m (-14.46, -30.75) wood",
+    "marge 0.67 m (-14.74, -31.65) wood",
+    "marge 0.67 m (-0.53, -43.41) wood",
+    "marge 0.67 m (25.13, -42.69) wood",
+    "marge 0.66 m (25.29, 42.88) wood",
+    "marge 0.65 m (-15.07, 31.32) wood",
+    "marge 0.65 m (-14.65, -38.21) wood",
+    "marge 0.65 m (-14.95, -38.14) wood",
+    "marge 0.64 m (8.29, -45.53) wood",
+    "marge 0.63 m (-14.13, 31.08) wood",
+    "marge 0.63 m (-15.15, 37.95) wood"
+   ]
+  },
+  "accroches": {
+   "nombre": 0,
+   "chemins": 160,
+   "liste": []
+  },
+  "zfight": {
+   "visibles": 24,
+   "bloquants": 0,
+   "liste": []
+  },
+  "traversee": {
+   "paires": 0,
+   "sur": 2485,
+   "liste": [],
+   "sauts": []
+  }
+ },
+ "hors": [
+  "vues de plus de 60 m (%) 6.3 (0 à 5)",
+  "marche d'un camp à l'autre 89.6 à 99.1 m (90 à 105)",
+  "carrefours sur la route la plus courte 9 (8 au plus)",
+  "A vu de plus d'un tiers des apparitions de son camp",
+  "C vu de plus d'un tiers des apparitions de son camp"
+ ],
+ "acceptes": [],
+ "bloquants": 0,
+ "minutes": 1.7
+}

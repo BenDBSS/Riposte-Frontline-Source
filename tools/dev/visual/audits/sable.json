@@ -1,0 +1,207 @@
+{
+ "carte": "sable",
+ "nom": "Khamsin",
+ "date": "2026-10-19",
+ "mesures": {
+  "type": "mid",
+  "vueMoyenne": 9.1,
+  "solVueCourte": 15.2,
+  "vuesPlus60m": 4.8,
+  "partPlace": 34.7,
+  "partEnHauteur": 4.8,
+  "marche": [
+   96.8,
+   103.7
+  ],
+  "routes": 5,
+  "impasses": 0,
+  "detour90": 1.33,
+  "carrefours": 1,
+  "repere": 62.7,
+  "goulot": {
+   "front": 13,
+   "passages": 10,
+   "detail": [
+    {
+     "ou": [
+      5.5,
+      4
+     ],
+     "largeur": 2,
+     "zone": "Catwalk"
+    },
+    {
+     "ou": [
+      -35,
+      8.5
+     ],
+     "largeur": 2,
+     "zone": "Long"
+    },
+    {
+     "ou": [
+      5,
+      9.5
+     ],
+     "largeur": 2,
+     "enHauteur": true,
+     "zone": "Catwalk"
+    },
+    {
+     "ou": [
+      -0.5,
+      1.5
+     ],
+     "largeur": 1,
+     "zone": "Doors"
+    },
+    {
+     "ou": [
+      31.5,
+      2.5
+     ],
+     "largeur": 1,
+     "zone": "Containers"
+    },
+    {
+     "ou": [
+      -5.5,
+      4.5
+     ],
+     "largeur": 1,
+     "zone": "Main Street"
+    },
+    {
+     "ou": [
+      -24.5,
+      6.5
+     ],
+     "largeur": 1,
+     "zone": "Long"
+    },
+    {
+     "ou": [
+      20.5,
+      8.5
+     ],
+     "largeur": 1,
+     "zone": "Containers"
+    }
+   ]
+  },
+  "viragesSerres": 0,
+  "viragesOu": [],
+  "points": [
+   {
+    "nom": "A",
+    "point": [
+     1,
+     31
+    ],
+    "entrees": 2,
+    "praticable": 83,
+    "couverts9m": 5,
+    "marche": [
+     28.2,
+     92.6
+    ],
+    "vuDesApparitions": [
+     2,
+     0
+    ]
+   },
+   {
+    "nom": "B",
+    "point": [
+     11,
+     0
+    ],
+    "entrees": 2,
+    "praticable": 74,
+    "couverts9m": 7,
+    "marche": [
+     60.5,
+     61
+    ],
+    "vuDesApparitions": [
+     0,
+     0
+    ]
+   },
+   {
+    "nom": "C",
+    "point": [
+     1,
+     -31
+    ],
+    "entrees": 2,
+    "praticable": 83,
+    "couverts9m": 5,
+    "marche": [
+     91.7,
+     29.1
+    ],
+    "vuDesApparitions": [
+     0,
+     2
+    ]
+   }
+  ]
+ },
+ "defauts": {
+  "navigation": [],
+  "decor": {
+   "portes": 0,
+   "pots": 0,
+   "affiches": 0,
+   "velos": 0,
+   "ponts": 0,
+   "sable": 0,
+   "recouvrements": 0,
+   "liste": []
+  },
+  "fentes": {
+   "fentes": 0,
+   "passeBalles": 0,
+   "trous": 0,
+   "marges": 28,
+   "margesPlus30cm": 28,
+   "liste": [
+    "marge 8 m (25, 22.95) metal",
+    "marge 8 m (31, 22.45) metal",
+    "marge 8 m (25, -31.05) metal",
+    "marge 8 m (31, -30.55) metal",
+    "marge 7.32 m (-3.87, 45) metal",
+    "marge 7.32 m (-3.87, -45) metal",
+    "marge 7.3 m (-33.25, 7.2) metal",
+    "marge 7.3 m (-33.25, -7.2) metal",
+    "marge 2.2 m (30.5, 38.05) metal",
+    "marge 2.2 m (30.5, -40.35) metal",
+    "marge 2 m (-27.75, 2.55) wood",
+    "marge 2 m (-27.75, -2.55) wood",
+    "marge 1.6 m (35.95, 7.34) concrete",
+    "marge 1.6 m (6.79, -49.95) concrete",
+    "marge 1.6 m (23.09, -49.95) concrete",
+    "marge 1.6 m (29.57, 49.95) concrete",
+    "marge 1.6 m (-24.05, 35) concrete",
+    "marge 1.6 m (-24.05, -7) concrete",
+    "marge 1.6 m (13, -14.05) concrete",
+    "marge 1.3 m (-35.95, -44.16) concrete"
+   ]
+  },
+  "accroches": {
+   "nombre": 0,
+   "chemins": 160,
+   "liste": []
+  },
+  "zfight": {
+   "visibles": 50,
+   "bloquants": 0,
+   "liste": []
+  }
+ },
+ "hors": [],
+ "acceptes": [],
+ "bloquants": 0,
+ "minutes": 5.5
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cod-visual",
+  "private": true,
+  "description": "Captures de la carte, comparaison des collisions et simulation de partie (Chromium sans interface)",
+  "dependencies": {
+    "@pmndrs/assets": "1.7.0",
+    "playwright-core": "1.56.0",
+    "three": "0.147.0"
+  }
+}

@@ -1,0 +1,1720 @@
+# Dictionnaire anglais du jeu : « texte français ⇒ traduction » (voir src/00-i18n.js, README « Langues »).
+# Les clés sont les textes passés à _t() dans src/ et les textes de shell.html. « = » : identique en anglais.
+# Un contrôle : python3 tools/dev/check_i18n.py (clés manquantes, inutilisées, textes français non enveloppés).
+
+
+# 02-map.js
+Village de ruelles ⇒ Alley village
+Un village écrasé de soleil où il ne se passe jamais rien. Sauf aujourd'hui. ⇒ A sun-baked village where nothing ever happens. Except today.
+Gare de montagne enneigée ⇒ Snowbound mountain station
+Une gare de montagne sous la neige. Le prochain train a du retard depuis 1987. ⇒ A mountain station under the snow. The next train has been late since 1987.
+Port de pêche et criée ⇒ Fishing harbor and fish market
+Un port breton au soleil couchant. Il fait beau, ce qui inquiète tout le monde. ⇒ A Breton harbor at sunset. The weather is fine, which worries everyone.
+Jardin botanique et grande serre ⇒ Botanical garden and great greenhouse
+Un jardin botanique en pleine floraison. Prière de ne pas marcher sur les pelouses, même mort. ⇒ A botanical garden in full bloom. Please keep off the grass, even when dead.
+Île des Cyclades ⇒ Cycladic island
+Un village blanc au bord de la mer Égée. Le vent y souffle depuis l'Antiquité, personne n'a pensé à l'éteindre. ⇒ A white village on the Aegean. The wind has blown there since antiquity and nobody thought to switch it off.
+Station volcanologique ⇒ Volcano research station
+Une station de recherche au pied d'un volcan en éruption. Le volcan avait prévenu. ⇒ A research station at the foot of an erupting volcano. The volcano did warn them.
+Îles flottantes ⇒ Floating islands
+Des îles suspendues au-dessus des nuages, reliées par des ponts de cordes. Personne ne les a jamais fait réviser. ⇒ Islands hanging above the clouds, linked by rope bridges. Nobody has ever had them inspected.
+Mer de dunes ⇒ Dune sea
+Une oasis au milieu des dunes. Au-delà, il n'y a que du sable et ceux qui sont partis vérifier. ⇒ An oasis in the middle of the dunes. Beyond it, only sand and the people who went to check.
+Lotissement pavillonnaire ⇒ Suburban housing estate
+Un lotissement où toutes les maisons se ressemblent. Le syndic décline toute responsabilité. ⇒ A housing estate where every house looks the same. The residents' association accepts no liability.
+
+# 06c-models.js
+Drone en vol ⇒ Drone in flight
+Satellite en ligne ⇒ Satellite online
+IEM déclenchée ⇒ EMP triggered
+
+# 06i-armes.js
+Mecha ⇒ =
+Un mecha tombe sur la zone choisie et défend sa position. Montez à bord pour le piloter. Il finit par exploser, sortez avant. ⇒ A mecha drops onto the area you pick and holds its position. Climb aboard to pilot it. It ends up exploding, so get out first.
+Drone kamikaze ⇒ Kamikaze drone
+Drone ⇒ =
+Vous pilotez un drone explosif pendant 30 secondes. Il explose au contact ou quand vous tirez. Votre soldat reste sans défense. ⇒ You fly an explosive drone for 30 seconds. It blows up on contact or when you fire. Your soldier is left defenseless.
+IEM ⇒ EMP
+Brouille l'équipe adverse pendant 25 secondes. Plus de mini-carte ni de séries, son UAV et son satellite s'éteignent. ⇒ Jams the enemy team for 25 seconds. No minimap or killstreaks, and its UAV and satellite shut down.
+Satellite ⇒ =
+Pendant 30 secondes, la mini-carte montre les ennemis en direct et où ils regardent. Seule une IEM le coupe. ⇒ For 30 seconds, the minimap shows enemies live and where they look. Only an EMP cuts it off.
+Pendant 30 secondes, la mini-carte montre les ennemis toutes les 3 secondes. ⇒ For 30 seconds, the minimap shows enemies every 3 seconds.
+Deux chasseurs bombardent la zone choisie sur la carte. Un toit protège bien. ⇒ Two fighter jets bomb the area you pick on the map. A roof gives good cover.
+Un hélicoptère tire sur les ennemis à découvert pendant 34 secondes. Il peut être abattu. ⇒ A helicopter fires at enemies in the open for 34 seconds. It can be shot down.
+Fusils d'assaut ⇒ Assault rifles
+Pistolets-mitrailleurs ⇒ Submachine guns
+Fusils de précision ⇒ Sniper rifles
+Fusils à pompe ⇒ Shotguns
+Pistolets ⇒ Pistols
+Fusil d'assaut ⇒ Assault rifle
+La carabine de référence. Précise et maîtrisable à toutes les distances. ⇒ The benchmark carbine. Accurate and controllable at every range.
+Pistolet-mitrailleur ⇒ Submachine gun
+Le pistolet-mitrailleur des unités d'intervention. Cadence élevée, recul doux, redoutable de près. ⇒ The submachine gun of intervention units. High rate of fire, soft recoil, fearsome up close.
+Fusil de précision ⇒ Sniper rifle
+Fusil à verrou de l'armée britannique. Une balle au torse suffit, à n'importe quelle distance. ⇒ British Army bolt-action rifle. One torso hit is enough, at any range.
+Fusil à pompe ⇒ Shotgun
+Semi-automatique de la marine. Huit chevrotines par coup, dévastateur en intérieur. ⇒ Navy semi-automatic. Eight pellets per shot, devastating indoors.
+Pistolet ⇒ Pistol
+L'arme de poing réglementaire. Fiable et rapide à dégainer. ⇒ The standard-issue sidearm. Reliable and quick to draw.
+Le fusil le plus répandu au monde. Lourd de recul, mais chaque balle frappe fort. ⇒ The most widespread rifle in the world. Heavy recoil, but every bullet hits hard.
+Fusil de bataille des forces spéciales. Cartouche lourde, trois balles au torse suffisent. ⇒ Special forces battle rifle. Heavy cartridge, three torso hits are enough.
+Le "clairon" français. Un bullpup compact qui tire plus de mille coups par minute. ⇒ The French "bugle". A compact bullpup that fires over a thousand rounds a minute.
+Ultra-compacte. Quarante coups, recul presque nul, très rapide à épauler. ⇒ Ultra-compact. Forty rounds, almost no recoil, very quick to shoulder.
+Le .45 ACP en rafales. Cadence posée et balles lourdes, trois suffisent de près. ⇒ The .45 ACP in bursts. Measured rate of fire and heavy bullets, three are enough up close.
+Douze cents coups par minute. Une tronçonneuse de couloir, mais le chargeur se vide vite. ⇒ Twelve hundred rounds a minute. A corridor chainsaw, but the magazine empties fast.
+Fusil de tireur d'élite semi-automatique. Deux balles au torse, une seule à la tête. ⇒ Semi-automatic marksman rifle. Two torso hits, a single headshot.
+Fusil antimatériel de calibre .50. Toute touche au corps est fatale, mais il est lourd et lent à épauler. ⇒ .50 caliber anti-materiel rifle. Any body hit is fatal, but it is heavy and slow to aim.
+La pompe des policiers et des chasseurs. Gerbe serrée et portée plus longue, une pompe entre deux coups. ⇒ The pump-action of police and hunters. Tight spread and longer reach, a pump between shots.
+Fusil à pompe entièrement automatique. Trois cents coups par minute, vingt dans le tambour étendu. ⇒ Fully automatic shotgun. Three hundred rounds a minute, twenty in the extended drum.
+Le .45 ACP des forces spéciales. Moins de coups que le M9, mais plus de dégâts. ⇒ The special forces .45 ACP. Fewer rounds than the M9, but more damage.
+Pistolet entièrement automatique. Il vide son chargeur en moins de deux secondes. ⇒ Fully automatic pistol. It empties its magazine in under two seconds.
+Le .50 Action Express. Deux balles au torse, une à la tête, mais sept coups seulement. ⇒ The .50 Action Express. Two torso hits, one headshot, but only seven rounds.
+Assaut ⇒ Assault
+Le choix polyvalent, à l'aise à toutes les distances. ⇒ The all-rounder, at ease at every range.
+Nettoyeur ⇒ Cleaner
+Vitesse et cadence pour le corps à corps. ⇒ Speed and rate of fire for close quarters.
+Tireur d'élite ⇒ Sniper
+Une balle au torse suffit. En visée, retenez votre souffle pour stabiliser la lunette. ⇒ One torso hit is enough. While aiming, hold your breath to steady the scope.
+Brèche ⇒ Breacher
+Dévastateur en intérieur, inoffensif au-delà de vingt mètres. ⇒ Devastating indoors, harmless beyond twenty meters.
+
+# 06p-accessoires.js
+Optique ⇒ Optic
+Bouche ⇒ Muzzle
+Canon ⇒ Barrel
+Sous-canon ⇒ Underbarrel
+Rail latéral ⇒ Side rail
+Chargeur ⇒ Magazine
+Crosse ⇒ Stock
+Munitions ⇒ Ammo
+Bouche et canon ⇒ Muzzle and barrel
+Chargeur et munitions ⇒ Magazine and ammo
+Point rouge ⇒ Red dot
+Point lumineux sur verre. Visée rapide et dégagée. ⇒ An illuminated dot on glass. Quick, clear sight picture.
+Holographique ⇒ Holographic
+Réticule en cercle sur grande fenêtre. On garde les deux yeux ouverts, mais la mise en joue est un peu plus lente. ⇒ Circle reticle in a large window. You keep both eyes open, but aiming is a little slower.
+Lunette de combat 4x. De la portée et de la précision, au prix d'un champ réduit et d'une mise en joue plus lente. ⇒ 4x combat scope. More range and precision, at the cost of a narrower field of view and slower aiming.
+Silencieux ⇒ Suppressor
+Tir étouffé, sans flash ni traçante. Portée et dégâts un peu réduits. ⇒ Muffled shot, no flash or tracer. Range and damage slightly reduced.
+Compensateur ⇒ Compensator
+Évents orientés vers le haut. Le canon monte beaucoup moins, mais dérive un peu plus sur les côtés. ⇒ Upward-facing vents. The barrel climbs much less, but drifts a little more sideways.
+Frein de bouche ⇒ Muzzle brake
+Recul plus droit, mais flash plus large et vue secouée. ⇒ Straighter recoil, but a wider flash and a shakier view.
+Choke serré ⇒ Tight choke
+Resserre la gerbe. Les chevrotines portent plus loin et se dispersent moins. ⇒ Tightens the spread. Pellets carry farther and scatter less.
+Canon long ⇒ Long barrel
+Plus de portée et de précision en visée. L'arme est plus lourde à épauler. ⇒ More range and precision when aiming. The weapon is heavier to shoulder.
+Canon court ⇒ Short barrel
+Arme plus vive et plus maniable. Moins de portée et un recul plus sec. ⇒ A livelier, handier weapon. Less range and snappier recoil.
+Poignée verticale ⇒ Vertical grip
+Bonne prise de la main d'appui. Le recul est domestiqué, mais l'arme se met en joue plus lentement. ⇒ A good hold with the support hand. Recoil is tamed, but the weapon takes longer to aim.
+Poignée angulaire ⇒ Angled grip
+Mise en joue plus rapide et tir à la hanche plus précis. Le recul vertical reste entier. ⇒ Faster aiming and more accurate hip fire. Vertical recoil stays intact.
+Bipied ⇒ Bipod
+Accroupi et immobile, recul et dispersion presque annulés. Debout, l'arme est plus lourde. ⇒ Crouched and still, recoil and spread almost cancelled. Standing, the weapon is heavier.
+Pointeur laser ⇒ Laser sight
+Un point rouge marque l'impact. Tir à la hanche bien plus précis. ⇒ A red dot marks the point of impact. Much more accurate hip fire.
+Chargeur rapide ⇒ Fast mag
+Chargeur à sangle d'extraction. Le rechargement est un quart plus court. ⇒ Magazine with an extraction strap. Reloading is a quarter shorter.
+Chargeur étendu ⇒ Extended mag
+Une moitié de munitions en plus par chargeur. Plus lourd et un peu plus long à changer. ⇒ Half again as much ammo per magazine. Heavier and a little slower to swap.
+Crosse renforcée ⇒ Reinforced stock
+Épaulée à fond, l'arme tient mieux la ligne de mire. Elle est plus lourde à manier. ⇒ Fully shouldered, the weapon holds its line of sight better. It is heavier to handle.
+Sans crosse ⇒ No stock
+Arme compacte et vive, mais bien plus difficile à maîtriser. ⇒ Compact and lively, but much harder to control.
+Pointe creuse ⇒ Hollow point
+Balles à expansion. Plus de dégâts, mais la portée efficace fond. ⇒ Expanding bullets. More damage, but effective range falls off.
+Balle unique ⇒ Slug
+Une seule balle lourde à la place des chevrotines. Précise et efficace à moyenne distance. ⇒ A single heavy slug instead of buckshot. Accurate and effective at medium range.
+Tube étendu ⇒ Extended tube
+Dégâts ⇒ Damage
+Portée ⇒ Range
+Cadence de tir ⇒ Rate of fire
+Capacité du chargeur ⇒ Magazine capacity
+Durée de rechargement ⇒ Reload time
+Temps de mise en joue ⇒ Aim-down-sights time
+Grossissement ⇒ Magnification
+Dispersion à la hanche ⇒ Hip-fire spread
+Dispersion en visée ⇒ Aimed spread
+Recul vertical ⇒ Vertical recoil
+Recul horizontal ⇒ Horizontal recoil
+Secousse de l'arme ⇒ Weapon kick
+Mobilité ⇒ Mobility
+Flash de bouche ⇒ Muzzle flash
+Secousse de la vue ⇒ View shake
+Tir silencieux : les bots ne l'entendent que de tout près ⇒ Silent shot: bots only hear it from very close
+Point laser visible à la hanche ⇒ Laser dot visible when hip firing
+Posé (accroupi, immobile), recul et dispersion réduits ⇒ Deployed (crouched, still), recoil and spread reduced
+Une seule balle lourde, sans gerbe ⇒ A single heavy slug, no spread
+
+# 06q-camos.js
+Désert ⇒ Desert
+Forêt ⇒ Forest
+Urbain ⇒ Urban
+Neige ⇒ Snow
+Tigre ⇒ Tiger
+Cobalt ⇒ Cobalt
+Braise ⇒ Ember
+Diamant ⇒ Diamond
+
+# 06r-arsenal.js
+Trois séries au plus. Retirez-en une avant d'en choisir une autre. ⇒ Three killstreaks at most. Remove one before picking another.
+Montez le {0} au niveau {1} (niveau {2}) ⇒ Level up the {0} to level {1} (now level {2})
+Niveau {0} de l'arme (niveau {1}) ⇒ Weapon level {0} (now level {1})
+niveau {0} de l'arme (niveau {1}) ⇒ weapon level {0} (now level {1})
+Camouflage {0} ⇒ Camo {0}
++{0} XP · {1} élim. ⇒ +{0} XP · {1} kills
+niveau {0}{1} ⇒ level {0}{1}
+Classe {0} ⇒ Class {0}
+Une classe de votre composition, avec armes, accessoires et camouflages. ⇒ A class of your own making, with weapons, attachments and camos.
+Cette classe ne se modifie pas. ⇒ This class cannot be edited.
+Cet accessoire ne va pas sur cette arme. ⇒ This attachment does not fit this weapon.
+Accessoire verrouillé : {0}. ⇒ Attachment locked: {0}.
+Une arme porte {0} accessoires au plus. Retirez-en un. ⇒ A weapon carries at most {0} attachments. Remove one.
+
+# 07-bots.js
+Recrue ⇒ Recruit
+Régulier ⇒ Regular
+Vétéran ⇒ Veteran
+Grenade ! ⇒ Grenade!
+Grenade ⇒ Grenade
+
+# 08-player.js
+Vous ⇒ You
+Couteau ⇒ Knife
+
+# 08b-killstreaks.js
+Largage du mecha ⇒ Mecha airdrop
+Touchez une zone de largage ⇒ Tap a drop zone
+Aucune zone de largage sur cette carte ⇒ No drop zone on this map
+Séries brouillées par une IEM ⇒ Killstreaks jammed by an EMP
+Satellite allié ({0}) ⇒ Allied satellite ({0})
+Satellite ennemi en ligne ⇒ Enemy satellite online
+IEM alliée ({0}) ⇒ Allied EMP ({0})
+IEM ennemie, vos appareils sont brouillés ⇒ Enemy EMP, your devices are jammed
+UAV en ligne ⇒ UAV online
+Liaison drone ⇒ Drone link
+Appui aérien ⇒ Air support
+Cible confirmée ⇒ Target confirmed
+Annulé ⇒ Canceled
+Sélection de la cible ⇒ Select a target
+Frappe aérienne en approche ⇒ Airstrike incoming
+Frappe aérienne ⇒ Airstrike
+
+# 08c-pickups.js
+Échanger {0} contre {1} ⇒ Swap {0} for {1}
+Maintenir {0} pour échanger {1} contre {2} ⇒ Hold {0} to swap {1} for {2}
+
+# 08d-heli.js
+Hélicoptère ⇒ Helicopter
+Appuyer pour appeler ⇒ Press to call
+Hélicoptère : vous êtes ciblé ! ⇒ Helicopter: you are being targeted!
+Hélicoptère abattu ⇒ Helicopter shot down
+Hélicoptère en approche ⇒ Helicopter inbound
+Hélicoptère allié ({0}) ⇒ Allied helicopter ({0})
+Hélicoptère ennemi en approche ! Mettez-vous à couvert ⇒ Enemy helicopter inbound! Take cover
+Votre hélicoptère est abattu ⇒ Your helicopter has been shot down
+Hélicoptère ennemi abattu ⇒ Enemy helicopter shot down
+Hélicoptère allié parti ⇒ Allied helicopter gone
+Hélicoptère ennemi parti ⇒ Enemy helicopter gone
+Un hélicoptère est déjà en vol ⇒ A helicopter is already airborne
+
+# 08e-fpv.js
+Drone kamikaze allié ({0}) ⇒ Allied kamikaze drone ({0})
+Drone kamikaze ennemi ! ⇒ Enemy kamikaze drone!
+Drone abattu ⇒ Drone shot down
+{0} Exploser ⇒ {0} Detonate
+Exploser ⇒ Detonate
+
+# 08f-mecha.js
+Mecha en approche ⇒ Mecha inbound
+Mecha allié en approche ({0}) ⇒ Allied mecha inbound ({0})
+Mecha ennemi en approche ! ⇒ Enemy mecha inbound!
+Mecha : vous êtes ciblé ! ⇒ Mecha: you are targeted!
+
+# 09-game.js
+Signal brouillé ⇒ Signal jammed
+Première série ⇒ First killstreak
+Deuxième série ⇒ Second killstreak
+Troisième série ⇒ Third killstreak
+{0} disponible : {1} ⇒ {0} ready: {1}
+{0} disponible ⇒ {0} ready
+Tir en pleine tête ⇒ Headshot
+Élimination ⇒ Kill
+Bonus tête ⇒ Headshot bonus
+Bonus combo ⇒ Combo bonus
+Assistance à la visée (au doigt, à la manette, au pavé tactile) ⇒ Aim assist (touch, controller, trackpad)
+Normale ⇒ Normal
+Désactivée ⇒ Off
+Tir automatique (quand le réticule est sur un ennemi, la visée remplace le bouton de tir) ⇒ Auto-fire (when the crosshair is on an enemy, the aim button replaces the fire button)
+Tir au relâchement (fusils de précision, appuyer pour viser et relâcher pour tirer) ⇒ Fire on release (sniper rifles, press to aim and release to fire)
+Vibrations (touche, élimination, coup reçu) ⇒ Vibration (hit, kill, damage taken)
+Opacité des boutons ⇒ Button opacity
+Aide ⇒ Assist
+UAV allié ({0}) ⇒ Allied UAV ({0})
+UAV ennemi en ligne ⇒ Enemy UAV online
+Frappe aérienne alliée ⇒ Allied airstrike
+Frappe aérienne ennemie ! ⇒ Enemy airstrike!
+Double élimination ⇒ Double kill
+Triple élimination ⇒ Triple kill
+Quadruple élimination ⇒ Quadruple kill
+Série de {0} éliminations ⇒ {0}-kill streak
+<em>tête</em> ⇒ <em>headshot</em>
+Éliminé par ⇒ Killed by
+Vous vous êtes éliminé ⇒ You killed yourself
+Tombé dans le vide ⇒ Fell into the void
+Perdu dans le désert ⇒ Lost in the desert
+Premier à {0} · vous êtes {1} ⇒ First to {0} · you are {1}
+{0} Recharger ⇒ {0} Reload
+{0} Retenir son souffle ⇒ {0} Hold your breath
+(bot) ⇒ (bot)
+Classement, premier à {0} ⇒ Ranking, first to {0}
+Nom ⇒ Name
+Score ⇒ Score
+Élim. ⇒ Kills
+Morts ⇒ Deaths
+Aides ⇒ Assists
+Ratio ⇒ Ratio
+Classement ⇒ Ranking
+Vainqueur : {0} ⇒ Winner: {0}
+{0} dans {1} s ⇒ {0} in {1} s
+Retour au salon ⇒ Back to lobby
+Retour au menu ⇒ Back to menu
+Premier à {0} points ⇒ First to {0} points
+Premier à {0} ⇒ First to {0}
+Éliminations ⇒ Kills
+Précision ⇒ Accuracy
+Meilleure série ⇒ Best streak
+Rejouer ⇒ Play again
+Quitter le match ⇒ Quit the match
+Terminer la partie ⇒ End the match
+{0} : équipée à votre prochaine réapparition ⇒ {0}: equipped at your next respawn
+Préparation des effets ⇒ Preparing effects
+Éclairage de la scène ⇒ Lighting the scene
+Préparation des soldats ⇒ Preparing soldiers
+Préparation des menus ⇒ Preparing menus
+Prêt ⇒ Ready
+Le chargement a échoué : {0}. Rechargez la page ou passez la qualité en Basse. ⇒ Loading failed: {0}. Reload the page or set quality to Low.
+WebGL est indisponible sur ce navigateur. ⇒ WebGL is not available in this browser.
+{0} · {1} m ⇒ {0} · {1} m
+{0} Réapparaître tout de suite ⇒ {0} Respawn now
+{0} ou {1} Réapparaître tout de suite ⇒ {0} or {1} Respawn now
++{0} XP ⇒ +{0} XP
+
+# 09a-loading.js
+Chargement des textures ⇒ Loading textures
+Génération des matières ⇒ Generating materials
+Construction de {0} ⇒ Building {0}
+Éclairage cuit de la carte ⇒ Baking the map lighting
+Calcul des itinéraires des bots ⇒ Computing bot routes
+Relevé satellite de la carte ⇒ Capturing the map's satellite view
+Éclairage HDRI ⇒ HDRI lighting
+Compilation des shaders ⇒ Compiling shaders
+
+# 09b-killcam.js
+Killcam finale ⇒ Final killcam
+Killcam ⇒ Killcam
+{0} Passer aux résultats ⇒ {0} Skip to results
+{0} Passer et réapparaître ⇒ {0} Skip and respawn
+{0} ou {1} Passer aux résultats ⇒ {0} or {1} Skip to results
+{0} ou {1} Passer et réapparaître ⇒ {0} or {1} Skip and respawn
+
+# 09c-net.js
+{0} a été exclu du salon. ⇒ {0} was removed from the room.
+L'hôte vous a exclu du salon. ⇒ The host removed you from the room.
+masqué ⇒ muted
+Afficher ⇒ Unmute
+Masquer ⇒ Mute
+Afficher de nouveau les messages de ce joueur ⇒ Show this player's messages again
+Ne plus voir les messages de ce joueur ⇒ Stop seeing this player's messages
+Confirmer l'exclusion ⇒ Confirm removal
+Exclure ⇒ Remove
+Retirer ce joueur du salon (il ne peut pas revenir) ⇒ Remove this player from the room (they cannot come back)
+Chute ⇒ Fall
+Connecté au salon. Aucun problème de connexion. ⇒ Connected to the lobby. No connection problem.
+Le relais ne connaît pas ce salon et le serveur de mise en relation (0.peerjs.com) est injoignable depuis ce poste. Vérifiez le code du salon. ⇒ The relay does not know this lobby and the signaling server (0.peerjs.com) cannot be reached from this computer. Check the lobby code.
+Ni la connexion directe ni le relais ne trouvent ce salon. Le code est faux ou l'hôte a fermé le salon. ⇒ Neither the direct connection nor the relay can find this lobby. The code is wrong or the host closed the lobby.
+La connexion directe est impossible depuis ce poste et le relais de secours (HTTPS, port 443) est injoignable aussi. Réseau très restrictif, relais hors service, ou quota du jour atteint (il revient à minuit UTC). ⇒ The direct connection is impossible from this computer and the backup relay (HTTPS, port 443) is unreachable too. Very restrictive network, relay out of service, or daily quota reached (it resets at midnight UTC).
+Le serveur de mise en relation (0.peerjs.com) est injoignable depuis ce poste. Sans doute bloqué par le proxy ou le pare-feu de l'entreprise, ou momentanément hors service. ⇒ The signaling server (0.peerjs.com) cannot be reached from this computer. Probably blocked by the company proxy or firewall, or temporarily down.
+Le serveur ne connaît pas ce salon. L'hôte n'y est plus enregistré (onglet fermé, réseau coupé ou salon fermé). Demandez à l'hôte de créer un nouveau salon. ⇒ The server does not know this lobby. The host is no longer registered there (tab closed, network down or lobby closed). Ask the host to create a new lobby.
+Rapport de l'hôte. Joignez-le à celui du joueur qui n'arrive pas à se connecter. ⇒ Host report. Attach it to the one from the player who cannot connect.
+connecté ⇒ connected
+injoignable ⇒ unreachable
+en cours ⇒ in progress
+non configuré ⇒ not configured
+non sollicité ⇒ not requested
+Salon ouvert : {0} joueur(s) en direct, {1} par le relais. Serveur de mise en relation PeerJS : {2}. Relais de secours : {3}. ⇒ Lobby open: {0} player(s) connected directly, {1} through the relay. PeerJS signaling server: {2}. Backup relay: {3}.
+non utilisé ⇒ not used
+Aucun chemin réseau n'a été trouvé : WebRTC est probablement bloqué sur ce poste (réglage du navigateur, stratégie d'entreprise, VPN ou extension). ⇒ No network path was found: WebRTC is probably blocked on this computer (browser setting, company policy, VPN or extension).
+Aucun accès UDP vers Internet depuis ce poste. Seuls des chemins locaux existent et ils n'ont pas abouti{0}. Les relais publics sont hors d'atteinte. ⇒ No UDP access to the Internet from this computer. Only local paths exist and they did not succeed{0}. The public relays are out of reach.
+(le navigateur masque les adresses locales et le réseau semble bloquer leur résolution entre PC) ⇒ (the browser hides local addresses and the network seems to block resolving them between PCs)
+La connexion directe avec l'hôte a échoué et les relais publics de PeerJS sont injoignables (port UDP 3478 sans doute filtré par le pare-feu) ⇒ The direct connection to the host failed and the public PeerJS relays are unreachable (UDP port 3478 is probably filtered by the firewall)
+, et aucun relais de secours n'est configuré pour ce jeu. ⇒ , and no backup relay is configured for this game.
+Un relais a été joint mais la connexion n'a pas abouti. Relais saturé ou trafic bloqué. ⇒ A relay was reached but the connection did not succeed. Relay overloaded or traffic blocked.
+Copier le rapport de connexion ⇒ Copy the connection report
+Rapport copié ⇒ Report copied
+Copie impossible ⇒ Copy failed
+Soldat ⇒ Soldier
+Création du salon... ⇒ Creating the lobby...
+Salon ouvert : envoyez le lien à vos amis, puis lancez la partie. ⇒ Lobby open: send the link to your friends, then start the match.
+Salon ouvert par le relais. Envoyez le lien à vos amis, puis lancez la partie. ⇒ Lobby open through the relay. Send the link to your friends, then start the match.
+Le relais de secours est injoignable. ⇒ The backup relay is unreachable.
+Le code d'un salon compte 5 caractères. ⇒ A lobby code is 5 characters long.
+Connexion au salon {0}... ⇒ Connecting to lobby {0}...
+L'hôte a fermé le salon ou la connexion est perdue. ⇒ The host closed the lobby or the connection was lost.
+La connexion avec l'hôte a échoué. ⇒ The connection to the host failed.
+Connexion au salon {0} par le relais... ⇒ Connecting to lobby {0} through the relay...
+Connecté par le relais. Pour éviter l'attente, cochez "Passer directement par le relais". ⇒ Connected through the relay. To skip the wait, tick "Go straight through the relay".
+Salon introuvable. Vérifiez le code, ou l'hôte a fermé le salon. ⇒ Lobby not found. Check the code, or the host closed the lobby.
+Ce salon est complet. ⇒ This lobby is full.
+Ce navigateur ne permet pas le jeu en ligne. ⇒ This browser does not support online play.
+Serveur de mise en relation injoignable. Réessayez dans un instant. ⇒ Signaling server unreachable. Try again in a moment.
+Connexion impossible ({0}). ⇒ Connection failed ({0}).
+erreur inconnue ⇒ unknown error
+Créez un salon et envoyez le lien à vos amis, ou entrez le code d'un salon. ⇒ Create a lobby and send the link to your friends, or enter a lobby code.
+Vous avez quitté le salon. ⇒ You left the lobby.
+{0} a changé de connexion{1}. ⇒ {0} changed connection{1}.
+(relais) ⇒ (relay)
+{0} a rejoint le salon. ⇒ {0} joined the lobby.
+{0} a quitté le salon. ⇒ {0} left the lobby.
+Chargement en cours : {0} ⇒ Loading: {0}
+(départ sans eux dans {0} s) ⇒ (starting without them in {0} s)
+Partie annulée : la carte n'a pas pu être chargée. ⇒ Match canceled: the map could not be loaded.
+Vous êtes dans le salon. En attente du lancement par l'hôte. ⇒ You are in the lobby. Waiting for the host to start.
+L'hôte a annulé la partie. ⇒ The host canceled the match.
+Ce salon est complet (8 joueurs). ⇒ This lobby is full (8 players).
+Votre version du jeu diffère de celle de l'hôte. Rechargez la page. ⇒ Your game version differs from the host's. Reload the page.
+{0} a rejoint la partie ⇒ {0} joined the match
+{0} a quitté la partie ⇒ {0} left the match
+Frappe aérienne alliée ({0}) ⇒ Allied airstrike ({0})
+Hélicoptère : vous êtes pris pour cible ! ⇒ Helicopter: you are being targeted!
+Impossible de joindre l'hôte. La connexion directe semble bloquée par le réseau. ⇒ Cannot reach the host. The direct connection seems blocked by the network.
+L'hôte ne répond plus. ⇒ The host is no longer responding.
+vous ⇒ you
+hôte ⇒ host
+en partie ⇒ in match
+carte prête ⇒ map ready
+chargement ⇒ loading
+via le relais ⇒ via relay
+Changer d'équipe ⇒ Switch team
+Déplacer ce joueur dans l'autre équipe ⇒ Move this player to the other team
+Personne ⇒ Nobody
+Chargement de la partie... ⇒ Loading the match...
+Lancer la partie ⇒ Start the match
+Rejoindre la partie ⇒ Join the match
+En attente de l'hôte ⇒ Waiting for the host
+Mode en ligne indisponible. La bibliothèque réseau n'a pas pu être chargée. Rechargez la page. ⇒ Online mode unavailable. The network library could not be loaded. Reload the page.
+Invitation au salon {0}. Connexion dès la fin du chargement. ⇒ Invitation to lobby {0}. Connecting as soon as loading finishes.
+
+# 09d-netrelay.js
+relais injoignable ⇒ relay unreachable
+
+# 09e-menus.js
+Séries ⇒ Killstreaks
+Petite ⇒ Small
+Grande ⇒ Large
+Vous êtes dans le salon {0}. Lancer une partie ici le quitte. ⇒ You are in lobby {0}. Starting a match here leaves it.
+Désactivé ⇒ Off
+Activé ⇒ On
+Réactions lentes et tirs imprécis, pour prendre ses marques. ⇒ Slow reactions and inaccurate shots, to find your feet.
+Un adversaire honnête, qui vise et réagit comme un joueur moyen. ⇒ A fair opponent that aims and reacts like an average player.
+Réactions vives et tirs précis. Ils sautent, glissent et contournent comme de vrais joueurs. ⇒ Sharp reactions and accurate shots. They jump, slide and flank like real players.
+Niveau {1} : {0} emplacement de classe personnalisée sur {2} ⇒ Level {1}: {0} custom class slot out of {2}
+Niveau {1} : {0} emplacements de classe personnalisée sur {2} ⇒ Level {1}: {0} custom class slots out of {2}
+, le suivant au niveau {0}. ⇒ , the next one at level {0}.
+, tous débloqués. ⇒ , all unlocked.
+Personnalisées ⇒ Custom
+Préconçues ⇒ Preset
+Verrouillée ⇒ Locked
++ Créer une classe ⇒ + Create a class
+<span class="cb">En cours</span> ⇒ <span class="cb">Active</span>
+Emplacement personnalisé {0} ⇒ Custom slot {0}
+Niveau {0} requis ⇒ Level {0} required
+Montez de niveau en jouant pour débloquer cet emplacement. Vous y composerez votre propre classe (armes, accessoires, camouflages) et vous pourrez la renommer. ⇒ Level up by playing to unlock this slot. You will build your own class there (weapons, attachments, camos) and you will be able to rename it.
+Votre niveau : {0}{1} ⇒ Your level: {0}{1}
+(sur cet appareil, connectez-vous pour suivre le niveau de votre compte) ⇒ (on this device, sign in to track your account level)
+Emplacement libre ⇒ Free slot
+Composez votre classe. Arme principale, pistolet, accessoires posés sur un visuel 3D de l'arme, camouflages. Vous pourrez la renommer. ⇒ Build your class. Primary weapon, pistol, attachments placed on a 3D view of the weapon, camos. You will be able to rename it.
+<div class="cp-btns"><button type="button" class="btn cp-edit" data-act="create">Créer cette classe</button></div> ⇒ <div class="cp-btns"><button type="button" class="btn cp-edit" data-act="create">Create this class</button></div>
+<p class="hint">Composez vos classes personnalisées dans l'atelier, depuis le menu principal (Classes) ou au déploiement.</p> ⇒ <p class="hint">Build your custom classes in the workshop, from the main menu (Classes) or at deployment.</p>
+Supprimer la classe {0} ? ⇒ Delete class {0}?
+Supprimer ⇒ Delete
+Garder ⇒ Keep
+Modifier la classe ⇒ Edit class
+<p class="hint">Classe préconçue : elle ne se modifie pas. Créez la vôtre dans un emplacement personnalisé (Classes).</p> ⇒ <p class="hint">Preset class: it cannot be edited. Build your own in a custom slot (Classes).</p>
+niveau {0} ⇒ level {0}
+Secondaire ⇒ Secondary
+Équipement ⇒ Equipment
+{0} grenade à fragmentation ⇒ {0} frag grenade
+{0} grenades à fragmentation ⇒ {0} frag grenades
+{0} coups ⇒ {0} rounds
+Équiper maintenant ⇒ Equip now
+Classe en cours : {0}. ⇒ Current class: {0}.
+Vous venez d'apparaître. La classe {0} peut être équipée tout de suite{1}. ⇒ You just spawned. Class {0} can be equipped right away{1}.
+La classe {0} sera équipée à votre prochaine réapparition. ⇒ Class {0} will be equipped at your next respawn.
+Classe {0} équipée ⇒ Class {0} equipped
+Changer de langue recharge le jeu. Vous quittez le salon. Continuer ? ⇒ Changing the language reloads the game. You will leave the lobby. Continue?
+Jeu ⇒ Game
+Langue ⇒ Language
+Automatique ⇒ Automatic
+Sensibilité ⇒ Sensitivity
+Champ de vision ⇒ Field of view
+Inverser l'axe vertical ⇒ Invert vertical axis
+Écran tactile ⇒ Touch screen
+Visée ⇒ Aiming
+Manette ⇒ Controller
+Interface ⇒ Interface
+Image ⇒ Image
+Affichage et dépannage ⇒ Display and troubleshooting
+Touches du clavier ⇒ Keyboard keys
+Souris et touches fixes ⇒ Mouse and fixed keys
+Marqueurs d'alliés (au-dessus de leur tête) ⇒ Ally markers (above their heads)
+Plein écran en partie (au lancement d'une partie, Échap reprend sans clic) ⇒ Fullscreen in match (when a match starts, Esc resumes without a click)
+Audio ⇒ Audio
+Volume général ⇒ Master volume
+Musique des menus ⇒ Menu music
+Annonces vocales (séries, objectifs) ⇒ Voice announcements (killstreaks, objectives)
+Vidéo ⇒ Video
+Qualité ⇒ Quality
+Haute ⇒ High
+Moyenne ⇒ Medium
+Basse ⇒ Low
+Occlusion ambiante ⇒ Ambient occlusion
+Rayons du soleil ⇒ Sun rays
+Herbe en relief sur les pelouses ⇒ 3D grass on lawns
+Résolution dynamique ⇒ Dynamic resolution
+Sans limite ⇒ No limit
+Moitié de l'écran ⇒ Half refresh rate
+Économie d'énergie (30 images par seconde, le jeu règle l'image selon l'appareil pour que la batterie dure plus longtemps) ⇒ Power saving (30 frames per second, the game sets the picture for your device so the battery lasts longer)
+Images par seconde au plus ⇒ Frame rate limit
+Afficher les performances ⇒ Show performance
+Plein écran ⇒ Fullscreen
+Commandes ⇒ Controls
+Souris ⇒ Mouse
+Pavé tactile ⇒ Trackpad
+Sensibilité du pavé tactile ⇒ Trackpad sensitivity
+Contrôles au pavé tactile (tir automatique, visée au double clic) ⇒ Trackpad controls (auto fire, double click to aim)
+Tir automatique (quand le réticule est sur un ennemi, le clic ne tire plus) ⇒ Auto fire (when the crosshair is on an enemy, clicking no longer fires)
+Visée au double clic ou au toucher à deux doigts (un autre range l'arme) ⇒ Aim with a double click or a two finger tap (another one lowers the weapon)
+Visée en bascule à la souris (un clic droit épaule, un autre range l'arme) ⇒ Toggle aim with the mouse (one right click aims, another lowers the weapon)
+Glisser pour viser, double clic ou toucher à deux doigts pour épauler. Le tir part tout seul quand le réticule est sur un ennemi ⇒ Slide to look, double click or two finger tap to aim down sights. Fire starts on its own when the crosshair is on an enemy
+Pavé tactile détecté. Tir automatique et double clic pour viser (Options, Jeu) ⇒ Trackpad detected. Auto fire and double click to aim (Options, Game)
+Souris détectée. Le clic gauche tire de nouveau (Options, Jeu) ⇒ Mouse detected. Left click fires again (Options, Game)
+Viser, clic gauche pour tirer, clic droit pour épauler ⇒ Aim, left click to fire, right click to aim down sights
+Recharger ⇒ Reload
+Changer d'arme ⇒ Switch weapon
+Grenade (maintenir pour la garder en main) ⇒ Grenade (hold to keep it in hand)
+Couteau (maintenir pour le garder en main) ⇒ Knife (hold to keep it in hand)
+Tableau des scores ⇒ Scoreboard
+Échap ⇒ Esc
+Entrée ⇒ Enter
+Menu pause : classe, options, quitter ⇒ Pause menu: class, options, quit
+Lancer une partie solo vous fait quitter le salon ⇒ Starting a solo match makes you leave the lobby
+Classe : ⇒ Class:
+Match en ligne ⇒ Online match
+Solo ⇒ Solo
+en ligne ⇒ online
+solo ⇒ solo
+Chargement de la carte ⇒ Loading the map
+Le chargement de la carte a échoué ({0}). Rechargez la page ou passez la qualité en Basse. ⇒ Loading the map failed ({0}). Reload the page or set quality to Low.
+Prêt à déployer ⇒ Ready to deploy
+En attente des autres joueurs ⇒ Waiting for the other players
+Déployer ⇒ Deploy
+Déploiement automatique dans ⇒ Automatic deployment in
+{0} · premier à {1} ⇒ {0} · first to {1}
+{0} · premier à {1} points ⇒ {0} · first to {1} points
+(encore {0} s) ⇒ ({0} s left)
+La partie continue pendant la pause ⇒ The match continues during the pause
+Partie en pause ⇒ Match paused
+Meilleur adversaire ⇒ Top opponent
+Temps restant ⇒ Time left
+Votre partie ⇒ Your match
+Vous êtes {0} ⇒ You are {0}
+Puis {0} à la prochaine réapparition ⇒ Then {0} on your next respawn
+
+# 09f-news.js
+Nouveau ⇒ New
+Amélioré ⇒ Improved
+Corrigé ⇒ Fixed
+Version actuelle : {0}. Les {1} dernières mises à jour. ⇒ Current version: {0}. The last {1} updates.
+Version actuelle : {0}. Dernières nouveautés. ⇒ Current version: {0}. Latest news.
+Dernière ⇒ Latest
+Version {0} ⇒ Version {0}
+Mise à jour {0} · {1} ⇒ Update {0} · {1}
+
+# 09h-update.js
+Nouvelle version du jeu disponible. ⇒ A new version of the game is available.
+Nouvelle version du jeu disponible. Elle se chargera en quittant le salon. ⇒ A new version of the game is available. It will load when you leave the lobby.
+Nouvelle version du jeu disponible. Elle se chargera à la fin de la partie. ⇒ A new version of the game is available. It will load when the match ends.
+
+# 09i-chat.js
+Aucun message. Appuyez sur T pour écrire. ⇒ No messages. Press T to write.
+
+# 09i-modes.js
+Match à mort par équipe ⇒ Team deathmatch
+Par équipe ⇒ Team
+6 contre 6 (vous et 5 alliés) ⇒ 6 vs 6 (you and 5 allies)
+Limite d'éliminations ⇒ Kill limit
+éliminations ⇒ kills
+Deux équipes de six. Le premier camp à la limite d'éliminations l'emporte. ⇒ Two teams of six. The first side to reach the kill limit wins.
+Match à mort ⇒ Deathmatch
+Chacun pour soi ⇒ Free for all
+Match à mort, chacun pour soi ⇒ Deathmatch, free for all
+Chacun pour soi, vous et 7 bots (8 joueurs) ⇒ Free for all, you and 7 bots (8 players)
+Personne n'est votre allié. Le premier à la limite d'éliminations l'emporte. ⇒ Nobody is your ally. The first to reach the kill limit wins.
+Domination ⇒ Domination
+Domination, trois points à tenir ⇒ Domination, hold three points
+6 contre 6, trois points à tenir ⇒ 6 vs 6, hold three points
+Score à atteindre ⇒ Score to reach
+Restez dans la zone d'un point pour le capturer. Chaque point tenu rapporte un point toutes les 4 secondes. ⇒ Stay inside a point's zone to capture it. Each point held scores one point every 4 seconds.
+Rival ⇒ Rival
+Vos apparitions retrouvent votre base ⇒ Your spawns return to your base
+Front croisé : vos apparitions passent côté adverse ⇒ Crossed fronts: your spawns switch to the opposing side
+Point {0} capturé ⇒ Point {0} captured
+Point {0} neutralisé par l'ennemi ⇒ Point {0} neutralized by the enemy
+Point {0} neutralisé ⇒ Point {0} neutralized
+Défense du point {0} ⇒ Defending point {0}
+Attaque du point {0} ⇒ Attacking point {0}
+Point {0} contesté ⇒ Point {0} contested
+Capture du point {0} ⇒ Capturing point {0}
+
+# 09j-compte.js
+Modération : {0} compte signalé attend votre décision. ⇒ Moderation: {0} reported account awaits your decision.
+Modération : {0} comptes signalés attendent votre décision. ⇒ Moderation: {0} reported accounts await your decision.
+Modération : aucun signalement en attente. ⇒ Moderation: no pending reports.
+Ouvrir la modération ⇒ Open moderation
+Votre photo a été signalée par plusieurs joueurs. Elle est masquée aux autres en attendant la modération. ⇒ Your picture was reported by several players. It is hidden from others until the moderators review it.
+Profil ⇒ Profile
+Se connecter ⇒ Sign in
+Comptes indisponibles ici ⇒ Accounts unavailable here
+Niveau, statistiques et multijoueur ⇒ Level, stats and multiplayer
+Profil de {0}, niveau {1} ⇒ {0}'s profile, level {1}
+Votre nom d'affichage (à changer dans Profil) ⇒ Your display name (change it in Profile)
+Connectez-vous pour rejoindre le salon {0}. ⇒ Sign in to join lobby {0}.
+Connectez-vous pour jouer en ligne. ⇒ Sign in to play online.
+Serveur injoignable : réessayez dans un instant. ⇒ Server unreachable: try again in a moment.
+Compte et progression ⇒ Account and progression
+<p class="hint">Chargement du profil...</p> ⇒ <p class="hint">Loading the profile...</p>
+Comptes indisponibles ⇒ Accounts unavailable
+<div class="card"><p class="hint">Les comptes ne sont pas joignables depuis cette page (page ouverte depuis un fichier, ou serveur injoignable). Vous pouvez jouer sans compte. La progression n'est pas enregistrée.</p><button class="btn" id="acRetry" type="button">Réessayer</button></div> ⇒ <div class="card"><p class="hint">Accounts cannot be reached from this page (page opened from a file, or server unreachable). You can play without an account. Progression is not saved.</p><button class="btn" id="acRetry" type="button">Retry</button></div>
+Une erreur est survenue. ⇒ An error occurred.
+J'ai 15 ans au moins et j'accepte les ⇒ I am at least 15 years old and I accept the
+conditions d'utilisation ⇒ terms of use
+politique de confidentialité ⇒ privacy policy
+Pourquoi un compte ? ⇒ Why an account?
+Votre niveau, votre expérience et vos statistiques vous suivent d'un appareil à l'autre. Le multijoueur demande un compte. Le Solo se joue sans, mais rien n'y est enregistré. ⇒ Your level, experience and stats follow you from one device to another. Multiplayer requires an account. Solo can be played without one, but nothing is saved.
+Politique de confidentialité ⇒ Privacy policy
+<div class="seg" id="acTabs" role="radiogroup" aria-label="Connexion ou création de compte"></div> ⇒ <div class="seg" id="acTabs" role="radiogroup" aria-label="Sign in or create an account"></div>
+Mot de passe oublié ⇒ Forgot password
+Retour ⇒ Back
+Nouveau mot de passe ⇒ New password
+Enregistrer ⇒ Save
+Créer un compte ⇒ Create an account
+Connexion ⇒ Sign in
+Nom d'utilisateur ⇒ Username
+Mot de passe ⇒ Password
+<button class="link" type="button" id="acForgot">Mot de passe oublié ?</button> ⇒ <button class="link" type="button" id="acForgot">Forgot your password?</button>
+Créer le compte ⇒ Create the account
+Parties ⇒ Matches
+Victoires ⇒ Wins
+Taux de victoire ⇒ Win rate
+Ratio É/M ⇒ K/D ratio
+À la tête ⇒ Headshots
+Temps de jeu ⇒ Time played
+Victoire ⇒ Victory
+Défaite ⇒ Defeat
+Égalité ⇒ Draw
+Abandon ⇒ Forfeit
+Niveau {0} ⇒ Level {0}
+{0} · {1} XP en tout ⇒ {0} · {1} XP in total
+{0} / {1} XP avant le niveau {2} ⇒ {0} / {1} XP to level {2}
+Niveau maximal ⇒ Max level
+Dernières parties ⇒ Recent matches
+<p class="hint">Aucune partie enregistrée. Jouez une partie pour gagner de l'XP.</p> ⇒ <p class="hint">No matches recorded. Play a match to earn XP.</p>
+Résultat ⇒ Result
+É / M ⇒ K / D
+Date ⇒ Date
+Mot de passe actuel ⇒ Current password
+Compte ⇒ Account
+Nom d'affichage (16 caractères au plus) ⇒ Display name (16 characters at most)
+Identifiant : ⇒ Username:
+Se déconnecter ⇒ Sign out
+Changer le mot de passe ⇒ Change the password
+Nouveau mot de passe (8 caractères au moins) ⇒ New password (at least 8 characters)
+Mes données et suppression du compte ⇒ My data and account deletion
+Vous pouvez récupérer toutes vos données dans un fichier, ou supprimer le compte. ⇒ You can download all your data in a file, or delete the account.
+Télécharger mes données ⇒ Download my data
+Supprimer efface le compte, la progression et l'historique, définitivement. Tapez votre nom d'utilisateur{0} pour confirmer. ⇒ Delete erases the account, the progression and the history, permanently. Type your username{0} to confirm.
+et votre mot de passe ⇒ and your password
+Supprimer définitivement ⇒ Delete permanently
+Erreur. ⇒ Error.
+Export impossible : réessayez. ⇒ Export failed: try again.
+Compte supprimé. ⇒ Account deleted.
+Niveau {0} ! ⇒ Level {0}!
+{0} classe personnalisée débloquée ⇒ {0} custom class unlocked
+{0} classes personnalisées débloquées ⇒ {0} custom classes unlocked
+Partie non enregistrée. <b>Connectez-vous</b> (Profil) pour gagner de l'XP du compte. ⇒ Match not saved. <b>Sign in</b> (Profile) to earn account XP.
+Progression gardée sur cet appareil ⇒ Progress kept on this device
+Partie solo : XP réduite de moitié ⇒ Solo match: XP halved
+
+# 09k-legal.js
+Signalements et modération ⇒ Reports and moderation
+Avant d'être enregistrée, chaque nouvelle photo est vérifiée automatiquement par un service d'intelligence artificielle (Claude, d'Anthropic), qui dit seulement si elle respecte les règles du jeu (ni nudité, ni violence, ni haine, ni drogue, ni texte injurieux) ; une photo refusée n'est pas gardée. Anthropic ne se sert pas de ces images pour entraîner ses modèles. ⇒ Before it is saved, each new picture is checked automatically by an artificial intelligence service (Claude, by Anthropic), which only says whether it follows the game rules (no nudity, violence, hate, drugs or offensive text); a refused picture is not kept. Anthropic does not use these images to train its models.
+Base : intérêt légitime (protéger les joueurs, art. 6.1.f). ⇒ Basis: legitimate interest (protecting players, art. 6.1.f).
+: si vous signalez un joueur, votre compte, le compte signalé, la raison, votre message éventuel et la date sont lus par la modération ; si vous êtes signalé, elle voit ces éléments et votre profil (photo comprise, même masquée) pour décider, sans que l'auteur du signalement vous soit communiqué. Une photo signalée par trois joueurs est masquée aux autres en attendant la décision. Un signalement est effacé 90 jours après la décision. Pour faire respecter les règles du jeu et protéger les joueurs. ⇒ : if you report a player, your account, the reported account, the reason, your optional message and the date are read by the moderators; if you are reported, they see these and your profile (including your picture, even hidden) to decide, without being told who reported you. A picture reported by three players is hidden from others until the decision. A report is deleted 90 days after the decision. To enforce the game rules and protect players.
+Confidentialité ⇒ Privacy
+Conditions d'utilisation ⇒ Terms of use
+Mentions légales ⇒ Legal notice
+Version du {0} ⇒ Version of {0}
+1. Objet ⇒ 1. Purpose
+Riposte: Frontline est un jeu de tir en ligne gratuit, joué dans le navigateur. Ces conditions encadrent l'usage du jeu et du compte joueur. Jouer en Solo ne demande pas de compte ; le multijoueur et la progression, si. ⇒ Riposte: Frontline is a free online shooter played in the browser. These terms govern the use of the game and of the player account. Playing Solo does not require an account; multiplayer and progression do.
+2. Compte ⇒ 2. Account
+3. Comportement ⇒ 3. Conduct
+Sont interdits : tricher (modifier le jeu, falsifier des résultats ou de l'expérience, exploiter une faille), usurper une identité (y compris celle de l'équipe du jeu), choisir un nom d'utilisateur, un nom d'affichage ou une photo de profil injurieux, haineux, sexuels ou trompeurs, harceler d'autres joueurs, y compris dans la discussion d'un salon, et signaler un joueur à tort de façon répétée. Les mots grossiers ou haineux sont refusés dans les noms et masqués dans la discussion. Dans un salon, chacun peut masquer un joueur et l'hôte peut l'exclure ; tout joueur peut en signaler un autre depuis son profil. La modération peut retirer une photo, remettre un nom d'affichage à son nom d'utilisateur, retirer un joueur du classement, remettre une progression à zéro, suspendre ou supprimer un compte qui ne respecte pas ces règles. Dans Communauté, les messages suivent les mêmes règles, sans lien ni publicité. L'équipe peut masquer ou effacer un message qui ne les respecte pas. ⇒ The following are forbidden: cheating (modifying the game, faking results or experience, exploiting a flaw), impersonating someone (including the game team), choosing an offensive, hateful, sexual or misleading username, display name or profile picture, harassing other players, including in a room's chat, and repeatedly reporting players without reason. Offensive or hateful words are refused in names and masked in chat. In a room, anyone can mute a player and the host can remove them; any player can report another from their profile. The moderators may remove a picture, reset a display name to the username, remove a player from the leaderboard, reset progression, suspend or delete an account that breaks these rules. In Community, messages follow the same rules, with no links or advertising. The team may hide or delete a message that breaks them.
+4. Progression ⇒ 4. Progression
+Les niveaux, l'expérience et les statistiques sont des éléments de jeu, sans valeur monétaire ni droit acquis. Ils peuvent être ajustés (équilibrage du jeu) ou corrigés (triche, erreur). ⇒ Levels, experience and stats are game elements, with no monetary value and no acquired right. They may be adjusted (game balance) or corrected (cheating, error).
+5. Disponibilité et responsabilité ⇒ 5. Availability and liability
+Le jeu est fourni "en l'état", gratuitement, sans garantie de disponibilité continue : il peut être interrompu, modifié ou arrêté, et les données de compte peuvent être perdues en cas d'incident. Dans la mesure permise par la loi, l'éditeur n'est pas responsable des dommages indirects liés à l'usage du jeu. ⇒ The game is provided "as is", free of charge, with no guarantee of continuous availability: it may be interrupted, modified or shut down, and account data may be lost in the event of an incident. To the extent permitted by law, the publisher is not liable for indirect damages related to the use of the game.
+6. Propriété ⇒ 6. Ownership
+Le jeu, son code et ses contenus restent à leur éditeur. Les textures et éclairages employés sont sous licence CC0 (voir les crédits du menu principal). Vos données de compte restent les vôtres (voir la politique de confidentialité). ⇒ The game, its code and its content remain with its publisher. The textures and lighting used are under the CC0 license (see the credits in the main menu). Your account data remains yours (see the privacy policy).
+7. Résiliation ⇒ 7. Termination
+Vous pouvez supprimer votre compte à tout moment depuis Profil. ⇒ You can delete your account at any time from Profile.
+8. Droit applicable, modifications, contact ⇒ 8. Governing law, changes, contact
+Ces conditions sont régies par le droit français. Elles peuvent changer : la date en haut de cette page indique la version en vigueur, et un changement important vous sera signalé. Contact : {0}. ⇒ These terms are governed by French law. They may change: the date at the top of this page indicates the version in force, and an important change will be flagged to you. Contact: {0}.
+Éditeur ⇒ Publisher
+Contact : {0} ⇒ Contact: {0}
+Hébergement ⇒ Hosting
+1. Qui est responsable de vos données ? ⇒ 1. Who is responsible for your data?
+{0}, {1}. Contact pour toute question ou demande : {2}. ⇒ {0}, {1}. Contact for any question or request: {2}.
+2. Quelles données, pour quoi, sur quelle base ? ⇒ 2. What data, for what purpose, on what basis?
+Base : exécution du service que vous demandez (art. 6.1.b du RGPD). ⇒ Basis: performance of the service you request (art. 6.1.b GDPR).
+Progression ⇒ Progression
+: niveau, expérience, statistiques et vingt dernières parties (carte, mode, résultat, éliminations, morts). Pour vous offrir la progression. ⇒ : level, experience, stats and last twenty matches (map, mode, result, kills, deaths). To provide you with progression.
+Base : même. ⇒ Basis: same.
+Sécurité ⇒ Security
+Base : intérêt légitime (art. 6.1.f). ⇒ Basis: legitimate interest (art. 6.1.f).
+Multijoueur ⇒ Multiplayer
+3. Ce que nous ne faisons pas ⇒ 3. What we do not do
+4. Combien de temps ? ⇒ 4. How long?
+5. Qui reçoit vos données ? ⇒ 5. Who receives your data?
+6. Cookies et stockage ⇒ 6. Cookies and storage
+7. Vos droits ⇒ 7. Your rights
+Vous pouvez ⇒ You can
+accéder ⇒ access
+à vos données et les ⇒ your data and
+récupérer ⇒ retrieve
+dans un fichier (Profil, "Télécharger mes données"), les ⇒ it in a file (Profile, "Download my data"),
+rectifier ⇒ rectify
+effacer ⇒ erase
+(Profil, "Supprimer mon compte"), demander la ⇒ it (Profile, "Delete my account"), request
+limitation ⇒ restriction
+du traitement ou vous y ⇒ of processing or
+opposer ⇒ object
+en écrivant à {0}. Réponse sous un mois. Si vous estimez que vos droits ne sont pas respectés, vous pouvez saisir la CNIL (www.cnil.fr). ⇒ to it by writing to {0}. Reply within a month. If you believe your rights are not being respected, you can lodge a complaint with the CNIL (www.cnil.fr).
+8. Mineurs ⇒ 8. Minors
+Le compte est réservé aux personnes de 15 ans au moins (âge du consentement numérique en France). Si vous êtes mineur de moins de 15 ans, ne créez pas de compte : le Solo reste accessible sans compte. ⇒ The account is reserved for people aged 15 or over (age of digital consent in France). If you are under 15, do not create an account: Solo remains available without an account.
+9. Sécurité ⇒ 9. Security
+10. Changements ⇒ 10. Changes
+La date en haut de cette page indique la version en vigueur. Un changement important vous sera signalé, et votre accord redemandé si la loi l'exige. ⇒ The date at the top of this page indicates the version in force. An important change will be flagged to you, and your agreement requested again if the law requires it.
+
+# 09l-fin.js
+Vous gagnez avec {0} éliminations ⇒ You win with {0} kills
+{0} gagne avec {1} éliminations, vous finissez {2} ⇒ {0} wins with {1} kills, you finish {2}
+Temps écoulé ⇒ Time is up
+Score atteint ⇒ Score reached
+Limite d'éliminations atteinte ⇒ Kill limit reached
+
+# 09n-armurerie.js
+Classe personnalisée {0} sur {1}. Choisissez trois séries, qui ne se débloquent pas au même nombre d'éliminations ⇒ Custom class {0} of {1}. Pick three killstreaks, each unlocked at a different number of kills
+{0} élimination d'affilée ⇒ {0} kill in a row
+{0} éliminations d'affilée ⇒ {0} kills in a row
+{0} élimination ⇒ {0} kill
+{0} éliminations ⇒ {0} kills
+Séries de la classe ⇒ Class killstreaks
+Choisissez encore {0} série. ⇒ Pick {0} more killstreak.
+Choisissez encore {0} séries. ⇒ Pick {0} more killstreaks.
+Cadence ⇒ Fire rate
+{1} · {0} élimination, {2} à la tête ⇒ {1} · {0} kill, {2} headshots
+{1} · {0} éliminations, {2} à la tête ⇒ {1} · {0} kills, {2} headshots
+Prochain déblocage au niveau {0} : ⇒ Next unlock at level {0}:
+Tout est débloqué pour cette arme ⇒ Everything is unlocked for this weapon
+Classe personnalisée {0} sur {1}. Choisissez vos armes. Les + posés sur l'arme ouvrent ses accessoires ⇒ Custom class {0} of {1}. Choose your weapons. The + markers on the weapon open its attachments
+Glissez pour faire tourner l'arme ⇒ Drag to rotate the weapon
+Glissez pour faire tourner l'arme, molette pour l'approcher ⇒ Drag to rotate the weapon, scroll to zoom in
+Équipée ⇒ Equipped
+Arme principale ⇒ Primary weapon
+{0} niveau {1} ⇒ {0} level {1}
+Retirer : {0} ⇒ Remove: {0}
+Chargeur : ⇒ Magazine:
+coups{0} · cadence {1} coups par minute ⇒ rounds{0} · {1} rounds per minute
+Accessoires ⇒ Attachments
+<span class="hint">Aucun accessoire : les + posés sur l'arme en ajoutent.</span> ⇒ <span class="hint">No attachments: the + markers on the weapon add them.</span>
+Standard ⇒ Standard
+Camouflage : {0}, changer ⇒ Camo: {0}, change
+Camouflage ⇒ Camo
+Fermer ⇒ Close
+Limite atteinte : {0} accessoires au plus. Retirez-en un pour poser celui-ci. ⇒ Limit reached: {0} attachments at most. Remove one to fit this one.
+posé ⇒ fitted
+Posé ⇒ Fitted
+<p class="hint">Aucun accessoire pour cet emplacement.</p> ⇒ <p class="hint">No attachments for this slot.</p>
+Pour le débloquer : {0} ⇒ To unlock it: {0}
+<i>Verrouillé</i> ⇒ <i>Locked</i>
+Les camouflages se débloquent avec le niveau de l'arme. ⇒ Camos unlock with the weapon's level.
+{0} verrouillé : {1}. ⇒ {0} locked: {1}.
+Verrouillé : {0}. ⇒ Locked: {0}.
+Débloqué : {0} ⇒ Unlocked: {0}
+Progression des armes ⇒ Weapon progression
+
+# 09o-vitrine.js
+<canvas class="vw-cv" aria-hidden="true"></canvas><div class="vw-hot"></div><div class="vw-count"></div><div class="vw-corner"></div><div class="vw-help">Glissez pour faire tourner · molette pour approcher</div> ⇒ <canvas class="vw-cv" aria-hidden="true"></canvas><div class="vw-hot"></div><div class="vw-count"></div><div class="vw-corner"></div><div class="vw-help">Drag to rotate · scroll to zoom</div>
+Arme en 3D, flèches pour la faire tourner ⇒ 3D weapon, arrow keys to rotate it
+ajouter un accessoire ⇒ add an attachment
+
+# shell.html
+Riposte: Frontline, FPS gratuit dans le navigateur ⇒ Riposte: Frontline, free FPS in your browser
+Vue du jeu ⇒ Game view
+Chargement de three.js ⇒ Loading three.js
+Menu principal ⇒ Main menu
+Classes ⇒ Classes
+Options ⇒ Options
+Jeu, audio, vidéo, commandes ⇒ Game, audio, video, controls
+Nouveautés ⇒ What's new
+Confidentialité et conditions ⇒ Privacy and terms
+Code source ⇒ Source code
+Vibe codé avec Claude Code par BenDBS ⇒ Vibe coded with Claude Code by BenDBS
+Textures et ciels : Poly Haven et ambientCG. Éclairage : HDRI Poly Haven via @pmndrs/assets. Toutes sous licence CC0. ⇒ Textures and skies: Poly Haven and ambientCG. Lighting: Poly Haven HDRI via @pmndrs/assets. All under the CC0 license.
+Carte ⇒ Map
+Mode ⇒ Mode
+Joueurs ⇒ Players
+Difficulté des bots ⇒ Bot difficulty
+Durée maximale ⇒ Maximum duration
+Parties en ligne, publiques ou entre amis, jusqu'à 8 joueurs ⇒ Online matches, public or with friends, up to 8 players
+Chargement... ⇒ Loading...
+Le multijoueur demande un compte. Votre nom et votre progression vous suivent d'une partie à l'autre. Le mode Solo reste ouvert à tous. ⇒ Multiplayer requires an account. Your name and your progression follow you from one match to the next. Solo mode stays open to everyone.
+Se connecter ou créer un compte ⇒ Sign in or create an account
+Votre pseudo ⇒ Your nickname
+Pseudo ⇒ Nickname
+Créer un salon ⇒ Create a lobby
+Entrez le code de 5 caractères donné par l'hôte, ou ouvrez son lien d'invitation. ⇒ Enter the 5-character code given by the host, or open their invitation link.
+Code du salon ⇒ Lobby code
+Rejoindre ⇒ Join
+Passer directement par le relais ⇒ Go straight through the relay
+(réseau d'entreprise : aucune connexion directe entre postes, aucun trafic UDP) ⇒ (company network: no direct connection between machines, no UDP traffic)
+Salon ⇒ Lobby
+Lien d'invitation ⇒ Invitation link
+Bots ⇒ Bots
+Aucun ⇒ None
+Discussion ⇒ Chat
+Message ⇒ Message
+Rapport de connexion ⇒ Connection report
+Quitter le salon ⇒ Leave the lobby
+Quitter le salon ? ⇒ Leave the lobby?
+Rester dans le salon ⇒ Stay in the lobby
+Économie d'énergie ⇒ Power saving
+Le jeu se limite à 30 images par seconde et règle l'image selon l'appareil. L'appareil chauffe moins et la batterie dure plus longtemps, sans grosse perte de qualité. Ce choix se change dans Options, Vidéo. ⇒ The game caps itself at 30 frames per second and sets the picture for your device. The device runs cooler and the battery lasts longer, without a big loss in quality. You can change this in Options, Video.
+Activer ⇒ Turn on
+Non merci ⇒ No thanks
+Vous êtes l'hôte. Le salon se fermera pour tous les joueurs. ⇒ You are the host. The lobby will close for every player.
+Vous pourrez revenir avec le code {0}. ⇒ You can come back with the code {0}.
+Texte ⇒ Text
+Votre équipement de départ. Vous pourrez encore en changer au déploiement. ⇒ Your starting equipment. You will still be able to change it at deployment.
+Atelier de classe ⇒ Class workshop
+Composez votre équipement ⇒ Build your equipment
+Nom de la classe ⇒ Class name
+Armes ⇒ Weapons
+Les réglages sont enregistrés automatiquement ⇒ Settings are saved automatically
+Historique des dernières mises à jour ⇒ History of the latest updates
+Choisissez votre classe ⇒ Choose your class
+Mise à jour ⇒ Update
+Continuer ⇒ Continue
+Historique des mises à jour ⇒ Update history
+Taille de l'interface en jeu ⇒ In-game interface size
+Message à tous (Entrée pour envoyer, Échap pour annuler) ⇒ Message to everyone (Enter to send, Esc to cancel)
+Premier à 75 ⇒ First to 75
+Menu pause ⇒ Pause menu
+Pause ⇒ Pause
+Reprendre ⇒ Resume
+Classe ⇒ Class
+Changer de classe ⇒ Change class
+Valider ⇒ Confirm
+Attention : vous êtes dans la zone de frappe ⇒ Warning: you are in the strike zone
+Touchez la carte pour lancer la frappe ⇒ Tap the map to call in the strike
+Clic gauche ⇒ Left click
+Molette ⇒ Wheel
+Clic droit ⇒ Right click
+Cliquez pour jouer ⇒ Click to play
+Un clic ou une touche reprend la capture de la souris. Échap met en pause. ⇒ A click or a key press resumes mouse capture. Esc pauses.
+Capture de la souris refusée par le navigateur. La visée suit la souris tant qu'elle reste dans la fenêtre. Passez en plein écran pour un meilleur confort. Échap met en pause. ⇒ Mouse capture was refused by the browser. Aiming follows the mouse as long as it stays inside the window. Go fullscreen for better comfort. Esc pauses.
+
+# Noms de lieux des cartes (zone affichée sur la minicarte et la tablette de frappe aérienne)
+Base Alpha ⇒ Alpha Base
+Base Bravo ⇒ Bravo Base
+Portail ⇒ Gate
+Maison ⇒ House
+Balcon ⇒ Balcony
+Long ⇒ Long
+Ruelle ⇒ Alley
+Portes ⇒ Doors
+Passerelle ⇒ Catwalk
+Rue centrale ⇒ Main Street
+Souk ⇒ Souk
+Passage ⇒ Passage
+Hangar ⇒ Hangar
+Arrière-cour ⇒ Backyard
+Goulet ⇒ Bottleneck
+Conteneurs ⇒ Containers
+Galerie ⇒ Gallery
+Quai ⇒ Platform
+Voies ⇒ Tracks
+Gare ⇒ Station
+Halle ⇒ Freight hall
+Hôtel du Col ⇒ Hôtel du Col
+Cour de la gare ⇒ Station yard
+Boulangerie ⇒ Bakery
+Grand-Rue ⇒ High Street
+Scierie ⇒ Sawmill
+Grange ⇒ Barn
+Placette ⇒ Square
+Cour du poste ⇒ Border post yard
+Village ⇒ Village
+Estacade ⇒ Trestle pier
+Chalutier ⇒ Trawler
+Darse ⇒ Dock basin
+Quai de débarquement ⇒ Landing quay
+Quais ⇒ Quays
+Mezzanine ⇒ Mezzanine
+Criée ⇒ Fish market
+Esplanade ⇒ Esplanade
+Mareyage ⇒ Fish packing
+Fabrique de glace ⇒ Ice factory
+Café de la Marine ⇒ Café de la Marine
+Calvaire ⇒ Calvary
+Venelle ⇒ Lane
+Ruelles ⇒ Alleys
+Rue du Port ⇒ Harbor Street
+Grotte ⇒ Grotto
+Rocher ⇒ Rock
+Étang de la serre ⇒ Greenhouse pond
+Grande Serre ⇒ Great Greenhouse
+Île du thé ⇒ Tea island
+Jardin japonais ⇒ Japanese garden
+Plateau ⇒ Plateau
+Ravin ⇒ Ravine
+Remise ⇒ Tool shed
+Labyrinthe ⇒ Maze
+Kiosque ⇒ Bandstand
+Pergola de glycines ⇒ Wisteria pergola
+Roseraie ⇒ Rose garden
+Canal ⇒ Canal
+Parterres ⇒ Flowerbeds
+Promenade ⇒ Promenade
+Pelouses ⇒ Lawns
+Chapelle de la jetée ⇒ Pier chapel
+Jetée ⇒ Pier
+Chantier naval ⇒ Boatyard
+Taverne du port ⇒ Harbor tavern
+Kafeneio ⇒ Kafeneio
+Église de la Panagia ⇒ Panagia church
+Place du Platane ⇒ Plane Tree Square
+Placette du puits ⇒ Well Square
+Ruelle de l'Arche ⇒ Arch Alley
+Toit de l'îlot ⇒ Block rooftop
+Rue de la Source ⇒ Spring Street
+Ruelle de l'Abside ⇒ Apse Lane
+Terrasses ⇒ Terraces
+Aire à battre ⇒ Threshing floor
+Marine ⇒ Waterfront
+Chora ⇒ Chora
+Dortoirs ⇒ Dormitories
+Groupes électrogènes ⇒ Generators
+Station de pompage ⇒ Pump station
+Têtes de puits ⇒ Wellheads
+Laboratoires ⇒ Labs
+Carothèque ⇒ Core store
+Conduites ⇒ Pipelines
+Observatoire ⇒ Observatory
+Salle des turbines ⇒ Turbine hall
+Salle de contrôle ⇒ Control room
+Séparateurs ⇒ Separators
+Sous-station ⇒ Substation
+Centrale ⇒ Power plant
+Parking ⇒ Parking lot
+Allée ⇒ Walkway
+Quai des dirigeables ⇒ Airship dock
+Vigie ⇒ Lookout
+Rotonde ⇒ Rotunda
+Ruines ⇒ Ruins
+Phare ⇒ Lighthouse
+Sanctuaire ⇒ Sanctuary
+Bosquet ⇒ Grove
+Pont suspendu ⇒ Suspension bridge
+
+# Divers ajoutés après coup
+Moyenne allégée ⇒ Medium (light)
+Minimale ⇒ Minimum
+Les ombres changent au prochain lancement du jeu. Relancer maintenant ? ⇒ Shadows change the next time the game starts. Restart now?
++{0} cartouches ⇒ +{0} shells
++{0} munitions ({1}) ⇒ +{0} ammo ({1})
+{0} et {1} ⇒ {0} and {1}
+Salon {0} ⇒ Lobby {0}
+{0}, puis {1} ⇒ {0}, then {1}
+{0} i/s ⇒ {0} fps
+pire {0} ms (CPU {1}) ⇒ worst {0} ms (CPU {1})
+(auto) ⇒ (auto)
+rendu {0} % ⇒ render {0}%
+file courte ⇒ short queue
+{0} image sautée ⇒ {0} frame skipped
+{0} images sautées ⇒ {0} frames skipped
+{0} appels ⇒ {0} draw calls
+{0} k triangles ⇒ {0}k triangles
+Point {0} perdu ⇒ Point {0} lost
+Point {0} tenu ⇒ Point {0} held
+Point {0} : reprise ⇒ Point {0}: taking it back
+Niveau {0} · voir mon profil ⇒ Level {0} · view my profile
+et la ⇒ and the
+{0} min ⇒ {0} min
+{0} {1} contre {2} {3} ⇒ {0} {1} vs {2} {3}
+Sélectionnée ⇒ Selected
+Bientôt ⇒ Soon
+ralenti ⇒ slow motion
+Emplacement {0} ⇒ Slot {0}
+Suivante ⇒ Next
+Choisie ⇒ Selected
+Sans accessoire ⇒ No attachment
+Tout retirer ⇒ Remove all
+Vainqueur ⇒ Winner
+
+# Photo de profil (src/09p-avatar.js, éditeur de shell.html, profil)
+Changer la photo de profil ⇒ Change the profile picture
+Modifier ⇒ Edit
+Photo de profil ⇒ Profile picture
+Changer la photo ⇒ Change the picture
+Retirer ⇒ Remove
+{0} Mo ⇒ {0} MB
+{0} Ko ⇒ {0} KB
+Image d'origine : {0} x {1} px, {2}. Version enregistrée : {3} x {3} px, {4}. ⇒ Original image: {0} x {1} px, {2}. Saved version: {3} x {3} px, {4}.
+Fichier trop lourd ({0} Mo au plus). ⇒ File too large ({0} MB at most).
+Ce fichier n'est pas une image. ⇒ This file is not an image.
+Lecture de l'image... ⇒ Reading the image...
+Cette image ne peut pas être lue par le navigateur (essayez un JPEG, un PNG ou un WebP). ⇒ The browser cannot read this image (try a JPEG, a PNG or a WebP).
+Enregistrement... ⇒ Saving...
+Cette image ne tient pas dans le poids autorisé, même réduite. Essayez-en une autre. ⇒ This image does not fit the allowed weight, even reduced. Try another one.
+Photo de profil enregistrée : {0} x {0} px, {1}. ⇒ Profile picture saved: {0} x {0} px, {1}.
+Photo de profil retirée. ⇒ Profile picture removed.
+Cadrage de la photo. Glisser pour déplacer, molette pour zoomer ⇒ Picture framing. Drag to move, scroll to zoom
+Choisissez une image, ou glissez-la ici. Toutes les tailles conviennent. ⇒ Choose an image, or drop it here. Any size will do.
+Aperçu ⇒ Preview
+Zoom ⇒ Zoom
+L'image est recadrée en carré et réduite ici, dans le jeu, avant d'être enregistrée. Seuls quelques Ko sont conservés. Les autres joueurs connectés la voient dans le classement et sur votre profil. ⇒ The image is cropped to a square and shrunk here, in the game, before it is saved. Only a few KB are kept. Other signed-in players see it in the leaderboard and on your profile.
+Choisir une image ⇒ Choose an image
+Retirer la photo ⇒ Remove the picture
+Annuler ⇒ Cancel
+(facultative) : l'image que vous choisissez, réduite dans votre navigateur avant l'envoi (carrée, quelques Ko) ; l'original ne quitte pas votre appareil. Elle est visible de vous et des autres joueurs connectés, dans le classement et sur votre profil ; vous pouvez la retirer à tout moment dans Profil. Pour personnaliser votre profil. ⇒ (optional): the image you choose, shrunk in your browser before it is sent (square, a few KB); the original never leaves your device. It is visible to you and to other signed-in players, in the leaderboard and on your profile; you can remove it at any time in Profile. To personalize your profile.
+Touchez : réapparaître tout de suite ⇒ Tap: respawn right away
+Touchez : passer aux résultats ⇒ Tap: skip to the results
+Touchez : passer et réapparaître ⇒ Tap: skip and respawn
+Contrôles tactiles ⇒ Touch controls
+Activés ⇒ On
+Désactivés ⇒ Off
+Joystick (à gauche) ⇒ Joystick (left)
+Se déplacer. Poussé au-delà du cercle, il fait sprinter (réglable avec le bouton Courir) ⇒ Move. Pushed past the circle, it sprints (adjustable with the Run button)
+Glisser (à droite) ⇒ Drag (right)
+Regarder autour de soi ⇒ Look around
+Boutons de tir ⇒ Fire buttons
+Viser ⇒ Aim
+Un appui épaule, un autre range. Un appui long vise tant que le doigt reste posé ⇒ One tap shoulders the weapon, another lowers it. A long press aims while your finger stays down
+Sauter, s'accroupir ⇒ Jump, crouch
+S'accroupir en sprintant fait une glissade ⇒ Crouching while sprinting makes a slide
+Recharger, changer d'arme ⇒ Reload, switch weapon
+Boutons à droite de l'écran ⇒ Buttons on the right of the screen
+Appuyer dégoupille, relâcher lance ⇒ Press to pull the pin, release to throw
+Un appui donne un coup. Maintenu, il sort le couteau pour courir plus vite. Changer d'arme le range ⇒ Tap to stab. Hold to take the knife out and run faster. Switching weapons puts it away
+Le bouton de ramassage apparaît près d'une arme au sol ⇒ The pickup button appears near a weapon on the ground
+Séries d'éliminations ⇒ Killstreaks
+Boutons jaunes à gauche, quand elles sont prêtes ⇒ Yellow buttons on the left, when they are ready
+Pause, scores, discussion ⇒ Pause, scores, chat
+Boutons en haut à droite ⇒ Buttons at the top right
+Joystick à gauche ⇒ Joystick on the left
+Glissez à droite ⇒ Drag on the right
+pour regarder autour de vous. ⇒ to look around.
+Boutons : tirer, viser, sauter, s'accroupir (glissade en sprint), recharger, grenade, couteau. ⇒ Buttons: shoot, aim, jump, crouch (slide while sprinting), reload, grenade, knife.
+Le tir part tout seul quand le réticule est sur un ennemi. Boutons : viser, sauter, s'accroupir (glissade en sprint), recharger, grenade, couteau. ⇒ You fire on your own when the crosshair is on an enemy. Buttons: aim, jump, crouch (slide while sprinting), reload, grenade, knife.
+Le tir part tout seul quand le réticule est sur un ennemi. Touchez deux fois l'écran pour viser. Boutons : sauter, s'accroupir (glissade en sprint), recharger, grenade, couteau. ⇒ You fire on your own when the crosshair is on an enemy. Double-tap the screen to aim. Buttons: jump, crouch (slide while sprinting), reload, grenade, knife.
+Touchez deux fois l'écran pour viser. Boutons : tirer, sauter, s'accroupir (glissade en sprint), recharger, grenade, couteau. ⇒ Double-tap the screen to aim. Buttons: shoot, jump, crouch (slide while sprinting), reload, grenade, knife.
+Visée au double toucher (sans bouton Viser) ⇒ Double-tap aiming (no Aim button)
+Touchez pour commencer ⇒ Tap to start
+Installez le jeu sur votre écran d'accueil. Plein écran, sans barre d'adresse. ⇒ Install the game on your home screen. Full screen, no address bar.
+Installer ⇒ Install
+Confirmer ⇒ Confirm
+Tournez votre appareil ⇒ Turn your device
+Le jeu se joue en mode paysage. ⇒ The game is played in landscape mode.
+Tirer ⇒ Shoot
+Sauter ⇒ Jump
+S'accroupir ⇒ Crouch
+Ramasser ⇒ Pick up
+Retenir son souffle ⇒ Hold your breath
+UAV ⇒ UAV
+Frappe ⇒ Strike
+Hélico ⇒ Heli
+Touchez Partager dans Safari (le carré avec une flèche vers le haut). ⇒ Tap Share in Safari (the square with an arrow pointing up).
+Choisissez "Sur l'écran d'accueil". ⇒ Choose "Add to Home Screen".
+Touchez Ajouter, puis lancez le jeu depuis sa nouvelle icône. ⇒ Tap Add, then launch the game from its new icon.
+Ouvrez le menu du navigateur (les trois points). ⇒ Open the browser menu (the three dots).
+Touchez "Installer l'application" ou "Ajouter à l'écran d'accueil". ⇒ Tap "Install app" or "Add to Home screen".
+Confirmez, puis lancez le jeu depuis sa nouvelle icône. ⇒ Confirm, then launch the game from its new icon.
+Sur iPhone et iPad, le jeu se joue en paysage. Désactivez le verrouillage de l'orientation. ⇒ On iPhone and iPad, the game is played in landscape. Turn off the orientation lock.
+Installer l'application ⇒ Install the app
+Plein écran en paysage. Tout l'écran pour jouer ⇒ Full screen in landscape. The whole screen to play
+Une icône sur l'écran d'accueil. Un toucher et c'est parti ⇒ An icon on your home screen. One tap and you're in
+Le même jeu. Même progression, parties en ligne comprises ⇒ The same game. Same progress, online matches included
+Votre session a expiré. Reconnectez-vous. ⇒ Your session has expired. Please log in again.
+Compte injoignable pour le moment ⇒ Account unreachable for now
+Connexion en cours... ⇒ Signing in...
+Emplacement de classe personnalisée {0} débloqué ⇒ Custom class slot {0} unlocked
+Votre niveau de joueur monte ⇒ Your player level goes up
+Armes, accessoires et camouflages ⇒ Weapons, attachments and camos
+
+# Mobile : durcissement graphique (src/01a-gpu.js, chargement des cartes, Options, fenêtres de shell.html)
+L'affichage 3D a été interrompu pendant que le jeu était en arrière-plan. Relancez le jeu pour le reprendre. ⇒ The 3D display was interrupted while the game was in the background. Restart the game to resume.
+L'affichage 3D a été interrompu par l'appareil. Relancez le jeu pour le reprendre. ⇒ The device interrupted the 3D display. Restart the game to resume.
+Votre appareil a interrompu l'affichage 3D du jeu (mémoire ou temps de calcul graphique). Le mode graphique économique est activé. Relancez le jeu. ⇒ Your device interrupted the game's 3D display (graphics memory or compute time). Economy graphics mode is now on. Restart the game.
+L'affichage 3D a encore été interrompu, même en mode graphique économique. Relancez le jeu. Si cela se répète, ouvrez le rapport graphique. ⇒ The 3D display was interrupted again, even in economy graphics mode. Restart the game. If it keeps happening, open the graphics report.
+affichage 3D interrompu par l'appareil ⇒ 3D display interrupted by the device
+Copié ⇒ Copied
+Compilation des shaders : {0} % ⇒ Compiling shaders: {0}%
+le pilote graphique a refusé {0} programmes de rendu ⇒ the graphics driver rejected {0} render programs
+Changer de mode graphique recharge le jeu. Vous quittez le salon. Continuer ? ⇒ Changing graphics mode reloads the game. You will leave the lobby. Continue?
+Mode graphique économique (si le jeu s'interrompt ou affiche du noir, relance le jeu) ⇒ Economy graphics mode (if the game gets interrupted or shows black, reloads the game)
+Rapport graphique ⇒ Graphics report
+Rapport de performances ⇒ Performance report
+Il suit chaque image de la dernière partie jouée avec les performances affichées. Copiez-le pour faire analyser les chutes d'images. ⇒ It tracks every frame of the last match played with the performance display on. Copy it to have the frame drops analysed.
+Aucune partie enregistrée. Cochez {0} dans Options, Vidéo, puis jouez une partie. ⇒ No match recorded. Tick {0} in Options, Video, then play a match.
+L'affichage 3D a été interrompu par l'appareil pendant le chargement ({0}). Relancez le jeu. Le mode graphique économique est activé. ⇒ The device interrupted the 3D display during loading ({0}). Restart the game. Economy graphics mode is now on.
+Réessayer en mode économique ⇒ Retry in economy mode
+Affichage 3D interrompu ⇒ 3D display interrupted
+Relancer le jeu ⇒ Restart the game
+Il décrit l'appareil et le rendu. Copiez-le ou partagez-le pour comprendre un affichage noir ou un chargement qui échoue. ⇒ It describes the device and the rendering. Copy or share it to understand a black display or a loading that fails.
+Copier ⇒ Copy
+Partager ⇒ Share
+
+# Mobile : installation d'abord (src/09r-pwa.js, fenêtre d'installation de shell.html)
+C'est installé ! ⇒ Installed!
+Le jeu est déjà installé ⇒ The game is already installed
+Ouvrez Riposte: Frontline depuis son icône sur votre écran d'accueil. ⇒ Open Riposte: Frontline from its icon on your home screen.
+Ouvrez-le depuis son icône. Plein écran, même progression. ⇒ Open it from its icon. Full screen, same progress.
+Jouer dans le navigateur quand même ⇒ Play in the browser anyway
+Plus tard ⇒ Later
+Installez le jeu pour y jouer ⇒ Install the game to play
+Il se joue en application. Plein écran, sans barre d'adresse, lancée d'un toucher depuis l'écran d'accueil. ⇒ It is played as an app. Full screen, no address bar, started with one tap from the home screen.
+Impossible d'installer ? ⇒ Cannot install?
+Dans le navigateur d'une application (Facebook, Instagram, Discord...), ouvrez le lien dans Chrome ou Safari. Sinon, vous pouvez jouer ici, avec moins de confort. Barre d'adresse, pas de plein écran assuré. ⇒ If you are in an app's built-in browser (Facebook, Instagram, Discord...), open the link in Chrome or Safari. Otherwise you can play here, with less comfort. Address bar, full screen not guaranteed.
+
+# Mobile : rendus refusés par l'appareil (src/01a-gpu.js, écran d'échec du chargement)
+Votre appareil a refusé certains rendus du jeu. Relancez le jeu. Ils seront remplacés par des versions simples (voir le rapport graphique). ⇒ Your device refused some of the game's rendering programs. Restart the game. They will be replaced by simple versions (see the graphics report).
+Votre appareil a refusé certains rendus du jeu pendant le chargement. Relancez le jeu. Ils seront remplacés par des versions simples (voir le rapport graphique). ⇒ Your device refused some of the game's rendering programs during loading. Restart the game. They will be replaced by simple versions (see the graphics report).
+L'affichage 3D a été interrompu. Le jeu s'adapte à votre appareil et se relance... ⇒ The 3D display was interrupted. The game is adapting to your device and restarting...
+three.js n'a pas pu être téléchargé. Vérifiez la connexion. Nouvel essai dans quelques secondes. ⇒ three.js could not be downloaded. Check your connection. Trying again in a few seconds.
+Chrome a bloqué l'affichage 3D du jeu après une interruption et ne le rend qu'à son redémarrage. Fermez le jeu, arrêtez Chrome (Paramètres du téléphone, Applications, Chrome, Forcer l'arrêt), puis rouvrez le jeu. ⇒ Chrome blocked the game's 3D display after an interruption and only gives it back when it restarts. Close the game, stop Chrome (phone Settings, Apps, Chrome, Force stop), then reopen the game.
+Attente : {0} s ⇒ Waiting: {0} s
+Le démarrage n'a pas abouti : {0} ⇒ Startup did not complete: {0}
+
+# 09q-tactile.js, 09qb-tactile-layout.js, 09e-menus.js (disposition des commandes tactiles)
+Courir ⇒ Run
+Course au doigt ⇒ Running by touch
+Bouton Courir ⇒ Run button
+Joystick poussé au-delà du cercle ⇒ Joystick pushed past the circle
+Joystick ⇒ Joystick
+Tirer. Le doigt peut glisser pour regarder ⇒ Shoot. The finger can slide to look around
+Disposition des commandes tactiles ⇒ Touch controls layout
+Disposition ⇒ Layout
+Options, Jeu : déplacer, agrandir ou retirer chaque bouton ⇒ Options, Game: move, resize or remove each button
+Terminé ⇒ Done
+Réinitialiser ⇒ Reset
+Appliquer ⇒ Apply
+Remettre ⇒ Put back
+Disposition en texte ⇒ Layout as text
+Touchez un bouton, puis glissez-le ⇒ Touch a button, then drag it
+Copié. ⇒ Copied.
+Sélectionnez le texte et copiez-le. ⇒ Select the text and copy it.
+Disposition appliquée. ⇒ Layout applied.
+Texte non reconnu. ⇒ Text not recognized.
+Non connecté. Votre progression reste sur cet appareil. ⇒ Not signed in. Your progress stays on this device.
+Apparaît sous le doigt ⇒ Appears under the finger
+Fixe à l'écran ⇒ Fixed on screen
+Joystick (sa taille, il apparaît sous le doigt) ⇒ Joystick (its size, it appears under the finger)
+Niveau supérieur ⇒ Level up
+Notifications : {0} non lue ⇒ Notifications: {0} unread
+Notifications : {0} non lues ⇒ Notifications: {0} unread
+Notifications ⇒ =
+à l'instant ⇒ just now
+il y a {0} min ⇒ {0} min ago
+il y a {0} h ⇒ {0} h ago
+il y a {0} j ⇒ {0} d ago
+Ajouter en ami ⇒ Add friend
+Demande envoyée ⇒ Request sent
+Annuler la demande ⇒ Cancel request
+Accepter ⇒ Accept
+Refuser ⇒ Decline
+Ami ⇒ Friend
+Retirer des amis ⇒ Remove friend
+Connectez-vous pour voir le classement. ⇒ Sign in to see the leaderboard.
+Vous êtes {0} sur {1} joueurs ⇒ You are {0} out of {1} players
+Vous n'êtes pas encore classé ⇒ You are not ranked yet
+Personne n'est encore classé. ⇒ Nobody is ranked yet.
+Les joueurs sont classés selon toute l'XP gagnée depuis leur inscription. Le classement ne repart jamais de zéro. ⇒ Players are ranked by all the XP they have earned since signing up. The leaderboard never starts over.
+Vous n'avez pas encore d'ami. Trouvez des joueurs dans le classement général et ajoutez-les. ⇒ You have no friends yet. Find players in the overall leaderboard and add them.
+Aucun joueur trouvé. ⇒ No player found.
+Joueurs à afficher ⇒ Players to show
+Chercher un joueur ⇒ Search for a player
+Chercher ⇒ Search
+Voir plus ⇒ Show more
+Tous les joueurs ⇒ All players
+Mes amis ⇒ My friends
+Réessayer ⇒ Try again
+Inscrit le {0} ⇒ Joined {0}
+{0} au classement ⇒ Ranked {0}
+Rang ⇒ Rank
+Pas encore classé. ⇒ Not ranked yet.
+Mon profil ⇒ My profile
+Aucune partie enregistrée. ⇒ No match recorded.
+{0} vous a envoyé une demande d'ami. ⇒ {0} sent you a friend request.
+{0} a accepté votre demande d'ami. ⇒ {0} accepted your friend request.
+Vous avez atteint le niveau {0} ! ⇒ You reached level {0}!
+Bienvenue dans Riposte: Frontline ! Retrouvez les autres joueurs dans le classement et ajoutez-les en ami. ⇒ Welcome to Riposte: Frontline! Find the other players in the leaderboard and add them as friends.
+Connectez-vous pour voir vos notifications. ⇒ Sign in to see your notifications.
+Voir le profil ⇒ View profile
+Effacer les notifications lues ⇒ Clear read notifications
+Aucune notification pour le moment. ⇒ No notifications yet.
+Classement des joueurs ⇒ Leaderboard
+Joueur ⇒ Player
+Demandes d'ami et nouveautés de votre compte ⇒ Friend requests and news about your account
+Classement, amis et notifications ⇒ Leaderboard, friends and notifications
+Signalé ⇒ Reported
+Signaler ⇒ Report
+Signaler {0} ⇒ Report {0}
+La modération regarde chaque signalement. Pour quelle raison ? ⇒ The moderators look at every report. What is the reason?
+Raison du signalement ⇒ Reason for the report
+Précisez si besoin (facultatif) ⇒ Add details if needed (optional)
+Envoyer le signalement ⇒ Send the report
+Merci : la modération va regarder ce signalement. ⇒ Thank you: the moderators will look at this report.
+Photo ⇒ Picture
+Triche ⇒ Cheating
+Comportement ⇒ Behavior
+La modération a retiré votre photo de profil. Elle ne respectait pas les règles du jeu. ⇒ The moderators removed your profile picture. It did not follow the game rules.
+La modération a remis votre nom d'affichage à votre nom d'utilisateur. L'ancien ne respectait pas les règles du jeu. ⇒ The moderators reset your display name to your username. The old one did not follow the game rules.
+La modération vous a retiré du classement (triche ou abus). ⇒ The moderators removed you from the leaderboard (cheating or abuse).
+
+# 09v-moderation.js
+Modération ⇒ Moderation
+Réservé à la modération. ⇒ Moderators only.
+Comptes bloqués ⇒ Blocked accounts
+{0} compte signalé ⇒ {0} reported account
+{0} comptes signalés ⇒ {0} reported accounts
+Aucun signalement en attente ⇒ No pending reports
+Débloquer ⇒ Unblock
+Ignorer et rendre la photo ⇒ Dismiss and restore the picture
+Ignorer ⇒ Dismiss
+Remettre le nom ⇒ Reset the name
+Retirer du classement ⇒ Remove from the leaderboard
+Confirmer le blocage ⇒ Confirm the block
+Bloquer le compte ⇒ Block the account
+Voir la photo ⇒ Show the picture
+Voir ⇒ Show
+bloqué le {0} ⇒ blocked on {0}
+{0} XP, {1} parties, ratio {2} ⇒ {0} XP, {1} matches, ratio {2}
+retiré du classement ⇒ removed from the leaderboard
+photo masquée ⇒ picture hidden
+Aucun compte bloqué. ⇒ No blocked account.
+Aucun signalement en attente. ⇒ No pending reports.
+Liste à afficher ⇒ List to show
+Actualiser ⇒ Refresh
+Signalés ⇒ Reported
+Bloqués ⇒ Blocked
+
+# 09qc-manette.js
+Régler ⇒ Adjust
+Bâton gauche ⇒ Left stick
+Bâton droit ⇒ Right stick
+Regarder. R3 (appui sur le bâton) pour le couteau, maintenu pour le garder en main ⇒ Look around. R3 (press the stick) for the knife, hold it to keep the knife in hand
+Tirer / viser (maintenu) ⇒ Fire / aim (hold)
+Ramasser l'arme au sol ⇒ Pick up the weapon on the ground
+Recharger, maintenir pour ramasser l'arme au sol ⇒ Reload, hold to pick up the weapon on the ground
+S'accroupir (glissade en sprintant) ⇒ Crouch (slide while sprinting)
+Croix directionnelle ⇒ D-pad
+Haut : UAV, droite : frappe aérienne, bas : hélicoptère, gauche : inspecter l'arme ⇒ Up: UAV, right: airstrike, down: helicopter, left: inspect weapon
+Dans les menus ⇒ In menus
+Croix ou bâton gauche pour naviguer, A valider, B revenir, LB et RB changer d'onglet ⇒ D-pad or left stick to navigate, A to confirm, B to go back, LB and RB to switch tabs
+Sensibilité de la manette ⇒ Controller sensitivity
+Zone morte des bâtons ⇒ Stick dead zone
+Réponse de la visée (manette) ⇒ Aim response (controller)
+Réactive ⇒ Responsive
+Progressive ⇒ Progressive
+Linéaire ⇒ Linear
+Accélération de la visée (manette, bâton à fond) ⇒ Aim acceleration (controller, stick pushed all the way)
+Aucune ⇒ None
+Forte ⇒ Strong
+Disposition de la manette ⇒ Controller layout
+Par défaut ⇒ Default
+Gaucher (bâtons échangés) ⇒ Southpaw (sticks swapped)
+Bumper jumper (saut sur LB) ⇒ Bumper jumper (jump on LB)
+Course à la manette ⇒ Sprinting with a controller
+Appui sur le bâton gauche (L3) ⇒ Press the left stick (L3)
+Bâton poussé à fond ⇒ Stick pushed all the way
+Vibrations de la manette ⇒ Controller vibration
+Manette (Xbox, PlayStation, 8BitDo...) ⇒ Controller (Xbox, PlayStation, 8BitDo...)
+{0} Échanger {1} contre {2} ⇒ {0} Swap {1} for {2}
+
+Avancer ⇒ Move forward
+Reculer ⇒ Move back
+Aller à gauche ⇒ Strafe left
+Aller à droite ⇒ Strafe right
+S'accroupir (maintenu), glisser en sprintant ⇒ Crouch (hold), slide while sprinting
+S'accroupir (bascule), glisser en sprintant ⇒ Crouch (toggle), slide while sprinting
+Arme secondaire ⇒ Secondary weapon
+Inspecter l'arme ⇒ Inspect weapon
+Espace ⇒ Space
+Maj gauche ⇒ Left Shift
+Maj droite ⇒ Right Shift
+Ctrl gauche ⇒ Left Ctrl
+Ctrl droite ⇒ Right Ctrl
+Alt gauche ⇒ Left Alt
+Alt droite ⇒ Right Alt
+Verr. maj ⇒ Caps Lock
+Retour arrière ⇒ Backspace
+Pavé {0} ⇒ Numpad {0}
+Appuyez sur une touche... ⇒ Press a key...
+Cette touche est réservée (Échap, P, T, Entrée, flèches et touches de fonction). ⇒ This key is reserved (Esc, P, T, Enter, arrow keys and function keys).
+Rétablir les touches par défaut ⇒ Restore default keys
+Clic sur une touche puis la nouvelle touche (Retour arrière : remettre celle par défaut). Hors plein écran, Ctrl+Maj avec une lettre peut déclencher un raccourci du navigateur. Préférez d'autres touches ou jouez en plein écran. ⇒ Click a key, then press the new key (Backspace: restore the default). Outside fullscreen, Ctrl+Shift with a letter can trigger a browser shortcut. Prefer other keys or play in fullscreen.
+Tab ⇒ Tab
+Visée au zoom (vitesse par rapport à la hanche) ⇒ Zoomed aim (speed relative to hip)
+Visée au zoom (manette, vitesse par rapport à la hanche) ⇒ Zoomed aim (controller, speed relative to hip)
+Onglets ⇒ Tabs
+
+Jusqu'à 8 joueurs, complétés par des bots ⇒ Up to 8 players, filled with bots
+Chacun pour soi, joueurs humains seulement ⇒ Free for all, human players only
+6 contre 6, complétés par des bots ⇒ 6 vs 6, filled with bots
+Deux équipes, joueurs humains seulement ⇒ Two teams, human players only
+Aucun message pour l'instant. ⇒ No messages yet.
+Réglés par l'hôte ⇒ Set by the host
+Écrire un message ⇒ Write a message
+
+# Tenues (src/06ga-tenues.js, écran Tenues et pause : src/09u-tenues.js, shell.html)
+Ligne de front, polyvalent ⇒ Frontline, flexible
+Commando ⇒ =
+Courte portée, agressif ⇒ Close range, aggressive
+Ghillie ⇒ =
+Longue portée, précision ⇒ Long range, precision
+Ouverture, combat rapproché ⇒ Breach, close quarters
+<canvas class="vw-cv" aria-hidden="true"></canvas><div class="vw-help">Glissez pour faire tourner</div> ⇒ <canvas class="vw-cv" aria-hidden="true"></canvas><div class="vw-help">Drag to rotate</div>
+Tenue en 3D, flèches pour la faire tourner ⇒ Outfit in 3D, arrow keys to rotate it
+Tenues ⇒ Outfits
+Dix tenues, dont six à débloquer ⇒ Ten outfits, six of them to unlock
+Votre tenue, quelle que soit votre arme. Elle change tout de suite. ⇒ Your outfit, whatever your weapon. It changes right away.
+
+# 06gc-tenues-defi.js
+Nomade ⇒ Nomad
+Survie, brèche, sans frontières ⇒ Survival, breach, no borders
+Tempête ⇒ Tempest
+Reconnaissance, longue portée ⇒ Recon, long range
+Fantôme vert ⇒ Verdant Phantom
+Affût, invisible dans les feuillages ⇒ Lying in wait, unseen in the foliage
+Raptor ⇒ =
+Vitesse, assaut rapproché ⇒ Speed, close assault
+Néant ⇒ Void
+Infiltration, précision, domination ⇒ Stealth, precision, dominance
+Gilet jaune ⇒ Yellow Vest
+Haute visibilité, aucune discrétion ⇒ High visibility, zero stealth
+
+
+# 06s-defis.js
+Éliminations au fusil à pompe ⇒ Shotgun kills
+Éliminations au couteau ou à la grenade ⇒ Knife or grenade kills
+Parties de match à mort finies dans les trois premiers ⇒ Free-for-all matches finished in the top three
+Mode Match à mort, en solo ou en ligne ⇒ Free-for-all mode, solo or online
+Éliminations au fusil de précision ⇒ Sniper rifle kills
+Éliminations à 50 m ou plus ⇒ Kills from 50 m or more
+Drones UAV appelés ⇒ UAV drones called in
+Le drone se gagne avec une série de 4 éliminations ⇒ The drone is earned with a 4-kill streak
+Éliminations avec un silencieux ⇒ Suppressed kills
+Le silencieux se débloque au niveau 4 d'une arme, dans l'atelier de classe ⇒ The suppressor unlocks at weapon level 4, in the class workshop
+Éliminations accroupi ⇒ Crouched kills
+Cartes où vous avez terminé une partie ⇒ Maps where you finished a match
+Éliminations au pistolet-mitrailleur ⇒ Submachine gun kills
+Éliminations en glissade ou en plein saut ⇒ Kills while sliding or mid-jump
+Doubles éliminations ⇒ Double kills
+Deux éliminations à moins de 4 secondes d'écart ⇒ Two kills less than 4 seconds apart
+Éliminations au fusil d'assaut ⇒ Assault rifle kills
+Éliminations au pistolet ⇒ Pistol kills
+Points capturés en Domination ⇒ Points captured in Domination
+Parties terminées sur une carte française ⇒ Matches finished on a French map
+Val-Blanc, Kervénec ou French Dream ⇒ Val-Blanc, Kervénec or French Dream
+Victoires sur une carte française ⇒ Wins on a French map
+Éliminations sur une carte française ⇒ Kills on a French map
+Défi accompli ⇒ Challenge complete
+Tenue débloquée : {0} ⇒ Outfit unlocked: {0}
+À porter depuis l'écran Tenues ⇒ Wear it from the Outfits screen
+Accompli ⇒ Complete
+
+# 09u-tenues.js (tenues de défi)
+Défis ⇒ Challenges
+Défis {0} / {1} ⇒ Challenges {0} / {1}
+Tenues de défi ⇒ Challenge outfits
+Relevez leurs défis pour les débloquer ⇒ Complete their challenges to unlock them
+Tenue unique ⇒ One-of-a-kind outfit
+Faite pour vous, personne d'autre ne peut la porter ⇒ Made for you, nobody else can wear it
+# Comptes sans adresse e-mail : code de secours (09j-compte.js) et textes légaux (09k-legal.js)
+Code de secours ⇒ Recovery code
+Le code de secours s'affiche à la création du compte. Sans lui, un mot de passe oublié ne peut pas être retrouvé. Le jeu ne garde aucune adresse e-mail. Vos autres appareils seront déconnectés. ⇒ The recovery code is shown when the account is created. Without it, a forgotten password cannot be recovered. The game keeps no email address. Your other devices will be signed out.
+Mot de passe changé. Votre ancien code de secours ne sert plus. Voici le nouveau. ⇒ Password changed. Your old recovery code no longer works. Here is the new one.
+Le nom d'utilisateur est votre identifiant public : 3 à 16 caractères (lettres sans accent, chiffres, tiret bas), définitif. Votre nom d'affichage sera le même, et vous pourrez le changer. Mot de passe : 8 caractères au moins. Aucune adresse e-mail n'est demandée : un code de secours s'affichera, à noter pour retrouver le compte si vous oubliez le mot de passe. ⇒ The username is your public identifier: 3 to 16 characters (letters without accents, digits, underscore), permanent. Your display name will be the same, and you can change it. Password: at least 8 characters. No email address is required: a recovery code will be shown, to write down so you can recover the account if you forget the password.
+Compte créé : bienvenue ! ⇒ Account created: welcome!
+Votre compte n'avait pas encore de code de secours. Le voici. Il remplace l'adresse e-mail, que le jeu ne garde plus. ⇒ Your account did not have a recovery code yet. Here it is. It replaces the email address, which the game no longer keeps.
+Votre code de secours ⇒ Your recovery code
+Notez-le et gardez-le en lieu sûr. C'est le seul moyen de retrouver votre compte si vous oubliez votre mot de passe. Il ne sera plus affiché. ⇒ Write it down and keep it somewhere safe. It is the only way to recover your account if you forget your password. It will not be shown again.
+Enregistrer dans un fichier ⇒ Save to a file
+J'ai noté mon code de secours ⇒ I have written down my recovery code
+Code copié. ⇒ Code copied.
+Copie impossible ici. Le code est sélectionné, notez-le à la main. ⇒ Copying is not possible here. The code is selected, write it down by hand.
+Nom d'utilisateur : {0} ⇒ Username: {0}
+Code de secours : {0} ⇒ Recovery code: {0}
+Donné le {0} ⇒ Issued on {0}
+Il sert à choisir un nouveau mot de passe si vous oubliez le vôtre (Connexion, "Mot de passe oublié ?"). Il ne sert qu'une fois. Un nouveau code vous est alors donné. ⇒ It lets you choose a new password if you forget yours (Sign in, "Forgot your password?"). It works only once. You are then given a new code.
+riposte-frontline-code-de-secours.txt ⇒ riposte-frontline-recovery-code.txt
+Créer mon code de secours ⇒ Create my recovery code
+Mot de passe et code de secours ⇒ Password and recovery code
+Ajouter un mot de passe ⇒ Add a password
+Nouveau code de secours (code perdu). L'ancien ne servira plus. ⇒ New recovery code (lost code). The old one will stop working.
+Créer un nouveau code ⇒ Create a new code
+Votre code de secours est prêt. ⇒ Your recovery code is ready.
+Nouveau code de secours. L'ancien ne sert plus. ⇒ New recovery code. The old one no longer works.
+Ce lien reçu par e-mail ne sert plus. Le jeu ne garde plus d'adresse e-mail. Connectez-vous avec votre nom d'utilisateur. En cas d'oubli du mot de passe, utilisez votre code de secours. ⇒ This link received by email no longer works. The game no longer keeps email addresses. Sign in with your username. If you forgot your password, use your recovery code.
+Le compte est réservé aux personnes de 15 ans au moins. Aucune adresse e-mail n'est demandée : vous gardez secrets votre mot de passe et votre code de secours (le seul moyen de retrouver le compte si vous oubliez le mot de passe) et vous êtes responsable de ce qui se fait avec votre compte. Un compte, une personne. ⇒ The account is reserved for people aged 15 or over. No email address is required: you keep your password and your recovery code secret (the only way to recover the account if you forget the password) and you are responsible for what is done with your account. One account, one person.
+: nom d'utilisateur, nom d'affichage, mot de passe et code de secours (conservés hachés : ils ne sont lisibles par personne), dates de création et de dernière connexion, version et date des conditions acceptées. Aucune adresse e-mail, aucun nom réel, aucune date de naissance. Pour créer et gérer votre compte, vous connecter et vous permettre de retrouver un mot de passe oublié. ⇒ : username, display name, password and recovery code (kept hashed: nobody can read them), creation and last sign-in dates, version and date of the accepted terms. No email address, no real name, no date of birth. To create and manage your account, sign you in and let you recover a forgotten password.
+Pas de publicité, pas de revente ni de cession de données, pas de profilage. Pas d'e-mail : le jeu ne demande aucune adresse et n'envoie aucun message. ⇒ No advertising, no resale or transfer of data, no profiling. No email: the game asks for no address and sends no messages.
+Un seul cookie, de session, strictement nécessaire pour rester connecté (il disparaît à la déconnexion ou après 90 jours sans visite) : aucun bandeau n'est donc demandé. Le navigateur garde aussi vos réglages (qualité, sensibilité, classe, pseudo de salon) sur votre appareil. La mesure d'audience du site ne dépose aucun cookie. ⇒ A single session cookie, strictly necessary to stay signed in (it disappears on sign-out or after 90 days without a visit): no banner is therefore required. The browser also keeps your settings (quality, sensitivity, class, lobby nickname) on your device. The site's audience measurement sets no cookie.
+(nom d'affichage, mot de passe, code de secours : Profil), les ⇒ it (display name, password, recovery code: Profile),
+Connexion chiffrée (HTTPS), mots de passe et codes de secours hachés avec un sel propre à chacun, codes de secours à usage unique, sessions révocables, essais limités. Aucune sécurité n'est parfaite : en cas de violation de données susceptible de vous exposer, l'information sera publiée dans le jeu (aucune adresse ne permet de vous écrire). ⇒ Encrypted connection (HTTPS), passwords and recovery codes hashed with a salt of their own, single-use recovery codes, revocable sessions, limited attempts. No security is perfect: in the event of a data breach likely to expose you, the information will be published in the game (no address lets us write to you).
+Créez votre code de secours. Sans lui, un mot de passe oublié ne peut pas être retrouvé (le jeu ne garde aucune adresse e-mail). ⇒ Create your recovery code. Without it, a forgotten password cannot be recovered (the game keeps no email address).
+Changer le mot de passe (un nouveau code de secours vous sera donné) ⇒ Change the password (you will be given a new recovery code)
+: votre nom d'utilisateur, votre nom d'affichage, votre niveau, vos statistiques de jeu (sauf votre temps de jeu ; avec votre rang au classement), vos dernières parties et votre date d'inscription sont visibles des autres joueurs connectés, dans le classement et sur votre profil (avec votre photo de profil, si vous en avez une). Vos demandes d'ami, vos amis et vos notifications (demandes reçues, réponses, niveaux gagnés, nouveaux codes de secours, invitations dans un salon) sont conservés avec votre compte ; les notifications lues sont effacées après 30 jours. Vos amis voient si vous êtes en ligne et ce que vous faites (au menu, dans un salon, en partie), d'après le dernier signal de votre jeu, et peuvent vous inviter dans leur salon. Pour vous permettre de retrouver et d'ajouter d'autres joueurs. ⇒ : your username, display name, level, game statistics (except your play time; with your leaderboard rank), latest matches and sign-up date are visible to other signed-in players, in the leaderboard and on your profile (with your profile picture, if you have one). Your friend requests, friends and notifications (requests received, replies, levels gained, new recovery codes, lobby invites) are kept with your account; read notifications are deleted after 30 days. Your friends see whether you are online and what you are doing (in the menus, in a lobby, in a match), from your game's latest signal, and can invite you to their lobby. So that you can find and add other players.
+Un nouveau code de secours a été créé pour votre compte. Si ce n'est pas vous, changez votre mot de passe dans Profil. Cela remplace aussi le code. ⇒ A new recovery code was created for your account. If it was not you, change your password in Profile. That also replaces the code.
+Aucune adresse e-mail. Un nom d'utilisateur et un mot de passe suffisent. Les autres joueurs connectés voient votre nom d'utilisateur, votre nom d'affichage, votre niveau, vos statistiques et votre photo. Évitez d'y mettre votre vrai nom. ⇒ No email address. A username and a password are all you need. Other signed-in players see your username, display name, level, statistics and picture. Avoid putting your real name there.
+(définitif, visible dans le classement). Les autres joueurs voient aussi votre nom d'affichage. ⇒ (permanent, visible in the leaderboard). Other players also see your display name.
+Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis (jeu et fonctions en ligne, exécutées en Europe). Base de données : Neon ({0}). Serveur de jeu (salons en ligne) : Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Allemagne (serveur en Allemagne). ⇒ Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, United States (game and online functions, run in Europe). Database: Neon ({0}). Game server (online lobbies): Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen, Germany (server in Germany).
+: une empreinte de votre adresse IP (calculée avec une clé secrète : l'adresse elle-même n'est pas gardée) et de l'identifiant saisi sert à limiter les essais de connexion, de récupération du mot de passe et les créations de compte ; elle est effacée après 48 heures au plus. Un jeton de session, dont seule l'empreinte est gardée. Pour protéger le service des abus. ⇒ : a fingerprint of your IP address (computed with a secret key: the address itself is not kept) and of the username entered is used to limit sign-in attempts, password recovery attempts and account creations; it is deleted after 48 hours at most. A session token, of which only the fingerprint is kept. To protect the service from abuse.
+Compte et progression : jusqu'à ce que vous supprimiez le compte, ou 36 mois après votre dernière connexion. Session : 90 jours sans visite. Limitation des essais : 48 heures au plus. Signalements : 90 jours après la décision de la modération. Messages de la Communauté : jusqu'à ce que vous les effaciez ou supprimiez le compte. Les adresses e-mail données aux versions précédentes du jeu ont été effacées. Ce qui est supprimé (compte supprimé, adresses effacées) disparaît aussitôt de la base, et des sauvegardes de l'hébergeur à leur rotation. ⇒ Account and progression: until you delete the account, or 36 months after your last sign-in. Session: 90 days without a visit. Attempt limiting: 48 hours at most. Reports: 90 days after the moderators' decision. Community messages: until you delete them or delete the account. Email addresses given to previous versions of the game have been erased. What is deleted (deleted account, erased addresses) disappears from the database at once, and from the host's backups when they rotate.
+Uniquement nos prestataires techniques, pour fournir le service : Vercel (hébergement du jeu et des fonctions), Neon (base de données, {0}), Hetzner (serveur de jeu des salons en ligne, en Allemagne), Anthropic (vérification automatique des photos de profil, aux États-Unis). Pour fonctionner, la page charge aussi ses polices de caractères chez Google Fonts, qui reçoit donc votre adresse IP comme tout site. Certains de ces prestataires sont établis aux États-Unis : les transferts hors de l'Union européenne s'appuient sur les garanties prévues par le RGPD (décision d'adéquation du cadre UE-États-Unis ou clauses contractuelles types). ⇒ Only our technical providers, to deliver the service: Vercel (hosting of the game and functions), Neon (database, {0}), Hetzner (game server for online lobbies, in Germany), Anthropic (automatic checking of profile pictures, in the United States). To work, the page also loads its fonts from Google Fonts, which therefore receives your IP address like any website. Some of these providers are based in the United States: transfers outside the European Union rely on the safeguards provided for by the GDPR (adequacy decision of the EU-US framework or standard contractual clauses).
+Niveau {0} · créez votre code de secours ⇒ Level {0} · create your recovery code
+Téléchargement demandé : vérifiez que le fichier est bien enregistré, sinon copiez le code ou notez-le à la main. ⇒ Download requested: check that the file was actually saved, otherwise copy the code or write it down by hand.
+Salon ouvert sur le serveur de jeu : {0} joueur. ⇒ Lobby open on the game server: {0} player.
+Salon ouvert sur le serveur de jeu : {0} joueurs. ⇒ Lobby open on the game server: {0} players.
+Le serveur de jeu est saturé. Réessayez dans un instant. ⇒ The game server is busy. Try again in a moment.
+Le serveur de jeu est injoignable depuis ce poste. Connexion coupée, réseau très restrictif ou serveur en maintenance. Réessayez dans un instant. ⇒ The game server cannot be reached from this device. Connection lost, very restrictive network, or server under maintenance. Try again in a moment.
+Connexion au serveur de jeu en cours. ⇒ Connecting to the game server.
+Le serveur de jeu est injoignable. ⇒ The game server cannot be reached.
+L'hôte ne répond pas. Réessayez, ou demandez-lui de créer un nouveau salon. ⇒ The host is not responding. Try again, or ask them to create a new lobby.
+: votre nom d'affichage, vos actions de jeu et vos messages de discussion sont transmis aux autres joueurs du salon par notre serveur de jeu (hébergé par Hetzner, en Allemagne). Les joueurs ne se connectent jamais directement entre eux : ⇒ : your display name, your game actions and your chat messages are passed on to the other players in the lobby by our game server (hosted by Hetzner, in Germany). Players never connect directly to each other:
+votre adresse IP n'est pas visible des autres joueurs ⇒ your IP address is not visible to other players
+, seulement du serveur, qui s'en sert, en mémoire, pour acheminer la connexion et limiter les abus. Il ne garde ni vos messages ni votre adresse une fois la connexion fermée. ⇒ , only to the server, which uses it, in memory, to route the connection and limit abuse. It keeps neither your messages nor your address once the connection is closed.
+Base : exécution du service que vous demandez (art. 6.1.b) ; limitation des abus : intérêt légitime (art. 6.1.f). ⇒ Basis: performance of the service you request (art. 6.1.b); limiting abuse: legitimate interest (art. 6.1.f).
+{0} joueur en ligne en ce moment ⇒ {0} player online right now
+{0} joueurs en ligne en ce moment ⇒ {0} players online right now
+Liste des parties publiques indisponible pour le moment. ⇒ The public match list is unavailable right now.
+Aucune partie publique pour le moment. Lancez-en une avec "Jouer maintenant". ⇒ No public match right now. Start one with "Play now".
+En partie ⇒ In match
+Hôte : {0} ⇒ Host: {0}
+Recherche d'une partie publique... ⇒ Looking for a public match...
+Privé ⇒ Private
+Public ⇒ Public
+Jouer maintenant ⇒ Play now
+Parties publiques ⇒ Public matches
+Jouez tout de suite, rejoignez une partie publique, ou créez un salon pour vos amis. ⇒ Play right away, join a public match, or create a lobby for your friends.
+Si vous ouvrez un salon public (ou lancez "Jouer maintenant"), votre nom d'affichage, la carte, le mode et le nombre de joueurs figurent dans la liste des parties publiques, visible de tous, tant que le salon est ouvert. ⇒ If you open a public lobby (or use "Play now"), your display name, the map, the mode and the number of players appear in the public match list, visible to everyone, while the lobby is open.
+La partie commence dans ⇒ Match begins in
+En avant ! ⇒ Move out!
+Entre amis ⇒ With friends
+Rejoindre ou lancer une partie publique ⇒ Join or start a public match
+Vous réglez la partie et invitez vos amis ⇒ You set up the match and invite your friends
+Rejoindre un salon ⇒ Join a lobby
+Avec le code ou le lien de l'hôte ⇒ With the host's code or link
+Paramètres de partie ⇒ Match settings
+Inviter des amis ⇒ Invite friends
+Vos amis tapent ce code dans Rejoindre un salon, ou ouvrent le lien. ⇒ Your friends type this code in Join a lobby, or open the link.
+Code copié ⇒ Code copied
+Copier le code ⇒ Copy the code
+Lien copié ⇒ Link copied
+Copiez-le à la main ⇒ Copy it by hand
+Copier le lien ⇒ Copy the link
+Rejoignez mon salon {0} ⇒ Join my lobby {0}
+Bot ⇒ Bot
+Installer Riposte ⇒ Install Riposte
+Ouvrez le fichier téléchargé dans le dossier Téléchargements et confirmez. L'installation se termine seule et revient au mode Jeu. ⇒ Open the downloaded file in the Downloads folder and confirm. The installation finishes on its own and returns to Gaming Mode.
+Installez le jeu dans Steam pour y jouer depuis le mode Jeu. ⇒ Install the game in Steam to play it from Gaming Mode.
+Télécharger de nouveau ⇒ Download again
+Installer sur Steam Deck ⇒ Install on Steam Deck
+Si la manette ne répond pas, choisissez dans Steam la disposition Manette avec trackpad souris. ⇒ If the controller does not respond, choose the Gamepad with Mouse Trackpad layout in Steam.
+Bouton Steam et X pour le clavier à l'écran ⇒ Steam button and X for the on-screen keyboard
+Communauté ⇒ Community
+Avis, idées et problèmes des joueurs ⇒ Player reviews, ideas and issues
+Avis ⇒ Reviews
+Idées ⇒ Ideas
+Problèmes ⇒ Issues
+Idée ⇒ Idea
+Problème ⇒ Issue
+Signalés ({0}) ⇒ Reported ({0})
+Messages à afficher ⇒ Messages to show
+Ordre ⇒ Order
+Populaires ⇒ Popular
+Récents ⇒ Recent
+Donner mon avis ⇒ Write a review
+Modifier mon avis ⇒ Edit my review
+Proposer une idée ⇒ Suggest an idea
+Signaler un problème ⇒ Report an issue
+Modifier le message ⇒ Edit message
+Jouez une partie pour donner votre avis. ⇒ Play a match to write a review.
+Connectez-vous pour lire les avis des joueurs et donner le vôtre. ⇒ Sign in to read player reviews and write your own.
+Votre note et quelques mots sur le jeu. Les joueurs connectés les verront avec votre nom. ⇒ Your rating and a few words about the game. Signed-in players will see them with your name.
+Une idée par message. Les autres joueurs pourront l'appuyer. ⇒ One idea per message. Other players can upvote it.
+Dites ce qui se passe, sur quelle carte et sur quel appareil. ⇒ Say what happens, on which map and on which device.
+Ce que vous en pensez (facultatif) ⇒ What you think of it (optional)
+Votre idée ⇒ Your idea
+Le problème rencontré ⇒ The issue you ran into
+Note ⇒ Rating
+Publier ⇒ Post
+Effacer ⇒ Delete
+Choisissez une note de 1 à 5 étoiles. ⇒ Choose a rating from 1 to 5 stars.
+Un avis ⇒ One review
+{0} avis ⇒ {0} reviews
+{0} étoile ⇒ {0} star
+{0} étoiles ⇒ {0} stars
+{0} étoile sur 5 ⇒ {0} star out of 5
+{0} étoiles sur 5 ⇒ {0} stars out of 5
+{0} appui ⇒ {0} upvote
+{0} appuis ⇒ {0} upvotes
+{0} signalement ⇒ {0} report
+{0} signalements ⇒ {0} reports
+Moi aussi ⇒ Me too
+Masqué ⇒ Hidden
+modifié ⇒ edited
+Prévue ⇒ Planned
+Ajoutée au jeu ⇒ Added to the game
+Pris en compte ⇒ Acknowledged
+Sans état ⇒ No status
+Répondre ⇒ Reply
+Modifier la réponse ⇒ Edit reply
+Rétablir ⇒ Restore
+Réponse de l'équipe ⇒ Reply from the team
+Réponse de l'équipe (facultative) ⇒ Reply from the team (optional)
+Profil de {0} ⇒ {0}'s profile
+Aucun avis pour le moment. ⇒ No reviews yet.
+Aucune idée pour le moment. ⇒ No ideas yet.
+Aucun problème signalé pour le moment. ⇒ No issues reported yet.
+Aucun message signalé. ⇒ No reported messages.
+Restez courtois. Les liens et la publicité ne sont pas acceptés. Un message signalé par plusieurs joueurs est masqué en attendant l'équipe. ⇒ Stay polite. Links and advertising are not allowed. A message reported by several players is hidden until the team looks at it.
+L'équipe a répondu à votre message dans Communauté. ⇒ The team replied to your message in Community.
+Voir la réponse ⇒ See the reply
+: vos avis (note et texte), vos idées et les problèmes que vous signalez sont visibles des joueurs connectés, avec votre nom d'utilisateur, votre nom d'affichage et votre photo de profil. Vous pouvez les modifier ou les effacer à tout moment. Vos appuis ("Moi aussi") et les messages que vous signalez sont gardés avec votre compte. L'équipe peut répondre à un message, le masquer ou l'effacer. Pour recueillir l'avis des joueurs et améliorer le jeu. ⇒ : your reviews (rating and text), your ideas and the issues you report are visible to signed-in players, with your username, display name and profile picture. You can edit or delete them at any time. Your upvotes ("Me too") and the messages you report are kept with your account. The team can reply to a message, hide it or delete it. To gather player feedback and improve the game.
+
+# 09cb-serveurs.js, 09c-net.js, 09e-menus.js (salons publics permanents)
+Vous pourrez revenir dans ce salon depuis la liste des salons publics. ⇒ You can come back to this lobby from the public lobby list.
+Rejoignez une partie publique, ou créez un salon privé pour vos amis. ⇒ Join a public match, or create a private lobby for your friends.
+Connexion au salon... ⇒ Connecting to the lobby...
+Ce salon public n'existe plus. Choisissez-en un autre. ⇒ This public lobby no longer exists. Pick another one.
+Ce salon public est complet. ⇒ This public lobby is full.
+Ce salon public accueille une autre version du jeu. Choisissez-en un autre. ⇒ This public lobby is running another version of the game. Pick another one.
+Vous êtes déjà dans ce salon depuis un autre onglet. ⇒ You are already in this lobby in another tab.
+La partie a été interrompue, son hôte est parti. ⇒ The match was interrupted, its host left.
+En attente de joueurs ⇒ Waiting for players
+Départ imminent ⇒ Starting soon
+Lancement ⇒ Launching
+Connexion perdue. Nouvel essai... ⇒ Connection lost. Retrying...
+La partie se lance à {1} joueurs. Encore {0} joueur. ⇒ The match starts with {1} players. {0} more player needed.
+La partie se lance à {1} joueurs. Encore {0} joueurs. ⇒ The match starts with {1} players. {0} more players needed.
+La partie commence dans {0} s. Votez pour la carte. ⇒ The match starts in {0} s. Vote for the map.
+La partie commence dans {0} s sur {1}. ⇒ The match starts in {0} s on {1}.
+Ouverture de la partie sur {0}... ⇒ Opening the match on {0}...
+Partie en cours sur {0}. ⇒ Match in progress on {0}.
+Salon public ⇒ Public lobby
+Partie en cours ⇒ Match in progress
+Votez pour la prochaine carte ⇒ Vote for the next map
+Prochaine carte ⇒ Next map
+{0} vote ⇒ =
+{0} votes ⇒ =
+mon vote ⇒ my vote
+Début dans {0} s ⇒ Starting in {0} s
+Lancement de la partie... ⇒ Launching the match...
+Connexion à la partie... ⇒ Joining the match...
+Liste des salons publics indisponible pour le moment. ⇒ Public lobby list unavailable right now.
+Salons publics ⇒ Public lobbies
+Salon public {0} ⇒ Public lobby {0}
+Salon public, {0} ⇒ Public lobby, {0}
+Vous êtes dans un salon public. Lancer une partie ici le quitte. ⇒ You are in a public lobby. Starting a match here leaves it.
+Dans un salon public permanent, votre nom d'affichage et votre niveau sont vus des autres joueurs de ce salon. La liste des salons publics ne montre que la carte, le mode et le nombre de joueurs. ⇒ In a permanent public lobby, your display name and level are seen by the other players of that lobby. The public lobby list only shows the map, the mode and the number of players.
+Vous êtes le chef du salon. Un autre joueur prendra votre place. ⇒ You are the lobby leader. Another player will take your place.
+Public ou privé, vous réglez la partie ⇒ Public or private, you set up the match
+Ce salon est privé. Entrez le code que vous a donné son chef. ⇒ This lobby is private. Enter the code its leader gave you.
+Le chef du salon vous a exclu. ⇒ The lobby leader removed you.
+Réglés par le chef du salon ⇒ Set by the lobby leader
+Au salon ⇒ In the lobby
+Réglez la partie, puis lancez-la quand vous voulez. ⇒ Set up the match, then start it whenever you want.
+En attente du lancement par le chef du salon. ⇒ Waiting for the lobby leader to start the match.
+chef ⇒ leader
+En attente du chef ⇒ Waiting for the leader
+Chef : {0} ⇒ Leader: {0}
+Vous réglez la partie et la lancez quand vous voulez. Le salon reste ouvert tant qu'il y a quelqu'un. ⇒ You set up the match and start it whenever you want. The lobby stays open as long as someone is in it.
+Dans la liste des salons, ouvert à tous ⇒ In the lobby list, open to everyone
+Salon privé ⇒ Private lobby
+Dans la liste des salons, on n'y entre qu'avec son code ⇒ In the lobby list, players need its code to join
+Avec son code ou son lien d'invitation ⇒ With its code or invitation link
+Si vous créez un salon, public ou privé, votre nom d'affichage, la carte, le mode et le nombre de joueurs figurent dans la liste des salons, visible de tous, tant que le salon est ouvert. Le code d'un salon privé n'y figure pas. ⇒ If you create a lobby, public or private, your display name, the map, the mode and the number of players appear in the lobby list, visible to everyone, while the lobby is open. The code of a private lobby is not shown there.
+Connexion perdue. La partie continue chez un autre joueur. ⇒ Connection lost. The match goes on with another player hosting.
+L'hôte est parti. Vous hébergez maintenant la partie. ⇒ The host left. You are now hosting the match.
+La partie continue avec un nouvel hôte. ⇒ The match goes on with a new host.
+Ne quittez pas ⇒ Please stand by
+Migration de l'hôte ⇒ Host migration
+Un autre joueur reprend la partie. ⇒ Another player is taking over the match.
+Vous devenez l'hôte de la partie. ⇒ You are becoming the match host.
+Reconnexion ⇒ Reconnecting
+Connexion perdue. Retour dans la partie... ⇒ Connection lost. Getting you back into the match...
+La connexion au serveur de jeu est perdue. ⇒ The connection to the game server was lost.
+{0} est de retour. ⇒ {0} is back.
+{0} a perdu la connexion. ⇒ {0} lost connection.
+
+# Zone ronde (src/02-relief.js, shell.html) : hors du cercle, compte à rebours avant la mort
+Hors de la zone de combat ⇒ Outside the combat zone
+Revenez avant la fin du compte à rebours ⇒ Get back before the countdown ends
+
+# Simoun (src/02yl-simoun.js) : zones de la carte
+Oasis ⇒ =
+Camp nord ⇒ North camp
+Camp sud ⇒ South camp
+Épave ⇒ Wreck
+Campement ⇒ Encampment
+Rochers ⇒ Rocks
+Impossible de rejoindre cette partie, son hôte ne répond pas. Choisissez un autre salon ou réessayez dans un moment. ⇒ Could not join this game, its host is not responding. Pick another lobby or try again in a moment.
+
+# 09zn-outil-zones.js
+Zones des cartes ⇒ Map zones
+Miroir ⇒ Mirror
+Ajouter ⇒ Add
+Annuler les retouches ⇒ Undo my changes
+Copier la configuration ⇒ Copy the configuration
+Largage {0} ⇒ Drop {0}
+Domination {0} ⇒ Domination {0}
+Alpha à {0} m, Bravo à {1} m. ⇒ Alpha {0} m away, Bravo {1} m away.
+Le mecha ne peut pas se poser ici. ⇒ The mecha cannot land here.
+Le mecha se posera à {0} m. ⇒ The mecha will land {0} m away.
+Faites glisser une zone pour la déplacer. ⇒ Drag a zone to move it.
+Configuration copiée. ⇒ Configuration copied.
+Copiez ce texte ⇒ Copy this text
+Pas de sol praticable sous ce point. ⇒ No walkable ground under this point.
+
+# 08g-mecha-pilote.js
+Chaleur ⇒ Heat
+Surchauffe ! Sortez du mecha ⇒ Overheating! Get out of the mecha
+Surchauffe ! Maintenir {0} pour sortir ⇒ Overheating! Hold {0} to get out
+Surchauffe ! {0} Sortir du mecha ⇒ Overheating! {0} Get out of the mecha
+Canons ⇒ Guns
+Monter dans le mecha ⇒ Board the mecha
+Descendre du mecha ⇒ Leave the mecha
+Maintenir {0} pour monter dans le mecha ⇒ Hold {0} to board the mecha
+Maintenir {0} pour descendre du mecha ⇒ Hold {0} to leave the mecha
+{0} Monter dans le mecha ⇒ {0} Board the mecha
+{0} Descendre du mecha ⇒ {0} Leave the mecha
+Votre mecha a explosé ⇒ Your mecha exploded
+Mecha allié détruit ⇒ Friendly mecha destroyed
+Mecha ennemi détruit ⇒ Enemy mecha destroyed
+Prête ⇒ Ready
+Ennemi ⇒ Enemy
+Touches 1 à 7 prête, Maj et 1 à 7 ennemi ⇒ Keys 1 to 7 ready, Shift and 1 to 7 enemy
+Trajectoire des grenades (en tenant une grenade) ⇒ Grenade trajectory (while holding a grenade)
+Frag ⇒ Frag
+Grenade à fragmentation ⇒ Frag grenade
+Elle explose 3,5 secondes après la cuillère. La garder en main raccourcit la mèche. ⇒ It goes off 3.5 seconds after the spoon flies. Holding it shortens the fuse.
+Flash ⇒ Flash
+Grenade incapacitante ⇒ Flashbang
+Elle aveugle et assourdit, d'autant plus qu'on est près et face à elle. Aucun dégât. ⇒ It blinds and deafens, more so up close and facing it. No damage.
+Fumigène ⇒ Smoke
+Grenade fumigène ⇒ Smoke grenade
+Un nuage épais d'environ sept mètres, pendant une quinzaine de secondes. Personne ne voit à travers. ⇒ A thick cloud about seven meters wide, for around fifteen seconds. Nobody sees through it.
+{0} grenade incapacitante ⇒ {0} flashbang
+{0} grenades incapacitantes ⇒ {0} flashbangs
+{0} grenade fumigène ⇒ {0} smoke grenade
+{0} grenades fumigènes ⇒ {0} smoke grenades
+Classe personnalisée {0} sur {1}. Choisissez une grenade ou le couteau de lancer, vous en avez deux à chaque vie ⇒ Custom class {0} of {1}. Pick a grenade or the throwing knife, you get two every life
+{0} accessoire ⇒ {0} attachment
+{0} accessoires ⇒ {0} attachments
+Principale ⇒ Primary
+{0} par vie ⇒ {0} per life
+Un seul par classe ⇒ One per class
+D'origine ⇒ Stock
+Mèche ⇒ Fuse
+{0} s ⇒ {0} s
+Par vie ⇒ Per life
+Effet ⇒ Effect
+Aveugle jusqu'à {0} s ⇒ Blinds for up to {0} s
+{0} m ⇒ {0} m
+Nuage de {0} s ⇒ {0} s cloud
+Largeur ⇒ Width
+Jusqu'à {0} de dégâts ⇒ Up to {0} damage
+Rayon ⇒ Radius
+Emplacements de la classe ⇒ Class slots
+Couteau de lancer ⇒ Throwing knife
+Il part presque droit et tue d'un coup s'il touche. Il se ramasse en passant dessus. ⇒ It flies almost straight and kills in one hit. Walk over it to pick it up.
+{0} couteau de lancer ⇒ {0} throwing knife
+{0} couteaux de lancer ⇒ {0} throwing knives
+Couteau de lancer récupéré ⇒ Throwing knife picked up
+Élimine d'un coup ⇒ One-hit kill
+Vitesse ⇒ Speed
+{0} m/s ⇒ {0} m/s
+Au sol ⇒ On the ground
+Se ramasse ⇒ Pick it back up
+
+# 02yn-french-dream.js
+Chantier ⇒ Building Site
+Garage ⇒ =
+Maison témoin ⇒ Show Home
+Sente ⇒ Footpath
+Piscine ⇒ Pool
+Jardins ⇒ Gardens
+Raquette ⇒ Turning Circle
+Rue des Mésanges ⇒ =
+Pavillons ⇒ Houses
+Seul, entre amis ou en ligne ⇒ Solo, with friends or online
+Vous êtes maintenant amis. ⇒ You are now friends.
+Demande d'ami envoyée. ⇒ Friend request sent.
+Invitation envoyée à {0}. ⇒ Invitation sent to {0}.
+Hors ligne ⇒ Offline
+Au menu ⇒ In the menus
+Dans un salon ⇒ In a lobby
+Connectez-vous pour retrouver vos amis. ⇒ Sign in to see your friends.
+{0} ami en ligne ⇒ {0} friend online
+{0} amis en ligne ⇒ {0} friends online
+Demande reçue ⇒ Request received
+Nom d'utilisateur de l'ami à ajouter ⇒ Username of the friend to add
+Demandes reçues ⇒ Requests received
+En ligne ({0}) ⇒ Online ({0})
+Hors ligne ({0}) ⇒ Offline ({0})
+Demandes envoyées ⇒ Requests sent
+Vous n'avez pas encore d'ami. Ajoutez un joueur par son nom d'utilisateur, ou depuis le classement (Joueurs). ⇒ You have no friends yet. Add a player by their username, or from the leaderboard (Players).
+Vous contre des bots, sans connexion. Pour s'entraîner. ⇒ You against bots, offline. For practice.
+Jouer ⇒ Play
+Amis ⇒ Friends
+Seul contre des bots, entre amis ou en ligne ⇒ Against bots, with friends or online
+{0} vous a invité dans son salon {1}. ⇒ {0} invited you to their lobby {1}.
+{0} vous invite dans son salon. ⇒ {0} invites you to their lobby.
+Vos amis ⇒ Your friends
+Ajoutez des amis dans le menu Amis pour les inviter ici. ⇒ Add friends in the Friends menu to invite them here.
+Invitation envoyée ⇒ Invite sent
+Renvoyer ⇒ Send again
+Inviter ⇒ Invite
+Code et lien ⇒ Code and link
+Renvoyer l'invitation ⇒ Send the invite again
+Inviter dans mon salon ⇒ Invite to my lobby
+Un salon privé contre des bots. Invitez vos amis connectés depuis le salon. ⇒ A private lobby against bots. Invite your online friends from the lobby.
+Les salons publics lancés par des joueurs. Vous pouvez aussi y créer votre salon. ⇒ Public lobbies started by players. You can also create your own lobby there.
+Sprinter, retenir son souffle en lunette ⇒ Sprint, hold your breath when scoped
+pour avancer. Poussé au-delà du cercle, il fait sprinter. ⇒ to move. Pushed past the circle, it sprints.
+Se déplacer (analogique). L3 (appui sur le bâton) pour sprinter, en lunette pour retenir son souffle ⇒ Move (analog). L3 (press the stick) to sprint, in a scope to hold your breath
+Aucun salon public pour le moment. Créez le vôtre, il apparaîtra ici. ⇒ No public lobby right now. Create yours and it will show up here.

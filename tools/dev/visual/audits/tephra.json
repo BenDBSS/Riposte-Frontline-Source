@@ -1,0 +1,209 @@
+{
+ "carte": "tephra",
+ "nom": "Tephra",
+ "date": "2026-10-21",
+ "mesures": {
+  "type": "mid",
+  "vueMoyenne": 11.3,
+  "solVueCourte": 7.5,
+  "vuesPlus60m": 3.8,
+  "partPlace": 41.6,
+  "partEnHauteur": 5.2,
+  "marche": [
+   94.3,
+   103.9
+  ],
+  "routes": 4,
+  "impasses": 0,
+  "detour90": 1.35,
+  "carrefours": 5,
+  "repere": 70.8,
+  "goulot": {
+   "front": 17,
+   "passages": 9,
+   "detail": [
+    {
+     "ou": [
+      -15.5,
+      -5.5
+     ],
+     "largeur": 5,
+     "zone": "Esplanade"
+    },
+    {
+     "ou": [
+      -20,
+      -5.5
+     ],
+     "largeur": 2,
+     "zone": "Pipelines"
+    },
+    {
+     "ou": [
+      -8,
+      -5.5
+     ],
+     "largeur": 2,
+     "zone": "Esplanade"
+    },
+    {
+     "ou": [
+      0,
+      -5.5
+     ],
+     "largeur": 2,
+     "zone": "Observatory"
+    },
+    {
+     "ou": [
+      10,
+      -5.5
+     ],
+     "largeur": 2,
+     "zone": "Gallery"
+    },
+    {
+     "ou": [
+      24.5,
+      -8.5
+     ],
+     "largeur": 1,
+     "zone": "Turbine hall"
+    },
+    {
+     "ou": [
+      30.5,
+      -1.5
+     ],
+     "largeur": 1,
+     "zone": "Turbine hall"
+    },
+    {
+     "ou": [
+      -25.5,
+      4.5
+     ],
+     "largeur": 1,
+     "zone": "Pipelines"
+    }
+   ]
+  },
+  "viragesSerres": 0,
+  "viragesOu": [],
+  "points": [
+   {
+    "nom": "A",
+    "point": [
+     0.5,
+     41.5
+    ],
+    "entrees": 2,
+    "praticable": 92,
+    "couverts9m": 1,
+    "marche": [
+     20.9,
+     100.5
+    ],
+    "vuDesApparitions": [
+     3,
+     0
+    ]
+   },
+   {
+    "nom": "B",
+    "point": [
+     -14.5,
+     0
+    ],
+    "entrees": 3,
+    "praticable": 99,
+    "couverts9m": 8,
+    "marche": [
+     60,
+     60.6
+    ],
+    "vuDesApparitions": [
+     0,
+     0
+    ]
+   },
+   {
+    "nom": "C",
+    "point": [
+     0,
+     -41.5
+    ],
+    "entrees": 2,
+    "praticable": 95,
+    "couverts9m": 1,
+    "marche": [
+     100.5,
+     20.9
+    ],
+    "vuDesApparitions": [
+     0,
+     3
+    ]
+   }
+  ]
+ },
+ "defauts": {
+  "navigation": [],
+  "decor": {
+   "portes": 0,
+   "pots": 0,
+   "affiches": 0,
+   "velos": 0,
+   "ponts": 0,
+   "sable": 0,
+   "recouvrements": 0,
+   "liste": []
+  },
+  "fentes": {
+   "fentes": 0,
+   "passeBalles": 0,
+   "trous": 0,
+   "marges": 26,
+   "margesPlus30cm": 26,
+   "liste": [
+    "marge 7 m (27.3, 2.45) metal",
+    "marge 7 m (27.3, -9.55) metal",
+    "marge 4.55 m (-29.4, -32.75) metal",
+    "marge 4.55 m (-29.4, 32.75) metal",
+    "marge 3.4 m (-18.75, 48.5) metal",
+    "marge 3.4 m (-18.75, -48.5) metal",
+    "marge 2.55 m (-29.4, 0) metal",
+    "marge 2.05 m (-27.35, 0) metal",
+    "marge 2 m (-25.93, 61) metal",
+    "marge 2 m (-20.3, 61) metal",
+    "marge 2 m (-25.93, -61) metal",
+    "marge 2 m (-20.3, -61) metal",
+    "marge 1.75 m (-21.9, -9.33) concrete",
+    "marge 1.04 m (26.95, 21) metal",
+    "marge 1.04 m (26.95, -21) metal",
+    "marge 0.98 m (28.6, 14.85) metal",
+    "marge 0.98 m (28.6, -17.55) metal",
+    "marge 0.9 m (-27.3, 30) metal",
+    "marge 0.9 m (-27.3, -30) metal",
+    "marge 0.84 m (2.75, 53) metal"
+   ]
+  },
+  "accroches": {
+   "nombre": 0,
+   "chemins": 160,
+   "liste": []
+  },
+  "zfight": {
+   "visibles": 0,
+   "bloquants": 0,
+   "liste": []
+  }
+ },
+ "hors": [
+  "A : 1 couverts à 9 m (5 au moins)",
+  "C : 1 couverts à 9 m (5 au moins)"
+ ],
+ "acceptes": [],
+ "bloquants": 0,
+ "minutes": 1.1
+}

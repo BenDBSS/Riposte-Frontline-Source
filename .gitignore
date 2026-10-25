@@ -1,0 +1,28 @@
+assets_src/
+__pycache__/
+*.png
+!docs/*.png
+# icône du jeu : sources et fichiers publiés, à versionner (sinon absents en production)
+!assets/icon/*.png
+!dist/icons/*.png
+# images du raccourci Steam (version Steam Deck)
+!assets/deck/*.png
+!dist/deck/*.png
+.DS_Store
+node_modules/
+package/
+
+# banc de test des salons (tools/nettest)
+tools/nettest/harness*.html
+.wrangler/
+audio-out/
+
+# pack d'animations Mixamo (licence : pas de fichiers bruts dans le dépôt ; seules les données cuites partent avec le jeu)
+/anim-source/
+
+# secrets locaux (vercel env pull, wrangler) : jamais dans le dépôt
+.env
+.env.*
+.vercel/
+.dev.vars
+**/.dev.vars

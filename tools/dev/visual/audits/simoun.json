@@ -1,0 +1,234 @@
+{
+ "carte": "simoun",
+ "nom": "Simoun",
+ "date": "2026-10-21",
+ "mesures": {
+  "type": "open",
+  "vueMoyenne": 19.9,
+  "solVueCourte": 0.9,
+  "vuesPlus60m": 43.9,
+  "partPlace": 72.7,
+  "partEnHauteur": 3.7,
+  "marche": [
+   111.9,
+   122.4
+  ],
+  "routes": 6,
+  "impasses": 1,
+  "detour90": 1.25,
+  "carrefours": 8,
+  "repere": 88.2,
+  "goulot": {
+   "front": 74,
+   "passages": 15,
+   "detail": [
+    {
+     "ou": [
+      -10,
+      3.5
+     ],
+     "largeur": 12,
+     "zone": "Oasis"
+    },
+    {
+     "ou": [
+      10.5,
+      4.5
+     ],
+     "largeur": 11,
+     "zone": "Oasis"
+    },
+    {
+     "ou": [
+      27.6,
+      8.4
+     ],
+     "largeur": 9,
+     "zone": "Rocks"
+    },
+    {
+     "ou": [
+      39,
+      10.5
+     ],
+     "largeur": 8,
+     "zone": "Rocks"
+    },
+    {
+     "ou": [
+      0,
+      4.5
+     ],
+     "largeur": 6,
+     "zone": "Oasis"
+    },
+    {
+     "ou": [
+      -66.5,
+      1.5
+     ],
+     "largeur": 5,
+     "zone": "Dune sea"
+    },
+    {
+     "ou": [
+      53.5,
+      9.5
+     ],
+     "largeur": 5,
+     "zone": "Rocks"
+    },
+    {
+     "ou": [
+      20,
+      6.5
+     ],
+     "largeur": 4,
+     "zone": "Oasis"
+    }
+   ]
+  },
+  "viragesSerres": 0,
+  "viragesOu": [],
+  "points": [
+   {
+    "nom": "A",
+    "point": [
+     37.5,
+     40.5
+    ],
+    "entrees": 2,
+    "praticable": 95,
+    "couverts9m": 37,
+    "marche": [
+     44.4,
+     117.4
+    ],
+    "vuDesApparitions": [
+     5,
+     0
+    ]
+   },
+   {
+    "nom": "B",
+    "point": [
+     0,
+     0
+    ],
+    "entrees": "ouvert",
+    "praticable": 88,
+    "couverts9m": 2,
+    "marche": [
+     64,
+     62.7
+    ],
+    "vuDesApparitions": [
+     0,
+     0
+    ]
+   },
+   {
+    "nom": "C",
+    "point": [
+     -26,
+     -42
+    ],
+    "entrees": "ouvert",
+    "praticable": 55,
+    "couverts9m": 0,
+    "marche": [
+     111.5,
+     33.3
+    ],
+    "vuDesApparitions": [
+     0,
+     15
+    ]
+   }
+  ]
+ },
+ "defauts": {
+  "navigation": [],
+  "decor": {
+   "portes": 0,
+   "pots": 0,
+   "affiches": 0,
+   "velos": 0,
+   "ponts": 0,
+   "sable": 0,
+   "recouvrements": 0,
+   "liste": []
+  },
+  "fentes": {
+   "fentes": 0,
+   "passeBalles": 0,
+   "trous": 0,
+   "marges": 379,
+   "margesPlus30cm": 377,
+   "liste": [
+    "marge 11.66 m (61.75, -6.05) concrete",
+    "marge 10.7 m (-41.85, -1.48) metal",
+    "marge 10.7 m (-41.85, 2.48) metal",
+    "marge 6 m (63, -3.05) concrete",
+    "marge 4.9 m (-43.95, -1.48) metal",
+    "marge 4.9 m (-43.95, 2.48) metal",
+    "marge 1.83 m (57.46, -25.5) concrete",
+    "marge 1.53 m (61.05, 0) concrete",
+    "marge 1.11 m (-47.29, 1.13) wood",
+    "marge 0.87 m (-56.05, 2.48) metal",
+    "marge 0.86 m (-57.45, 0.5) metal",
+    "marge 0.85 m (22.12, -61.23) concrete",
+    "marge 0.85 m (21.86, -60.9) concrete",
+    "marge 0.85 m (23.14, -60.1) concrete",
+    "marge 0.85 m (21.93, -59.77) concrete",
+    "marge 0.83 m (-56.05, -1.48) metal",
+    "marge 0.83 m (21.79, 59.84) concrete",
+    "marge 0.83 m (23.01, 59.5) concrete",
+    "marge 0.83 m (23.21, 60.22) concrete",
+    "marge 0.8 m (23.19, -60.32) concrete"
+   ]
+  },
+  "accroches": {
+   "nombre": 0,
+   "chemins": 160,
+   "liste": []
+  },
+  "zfight": {
+   "visibles": 2,
+   "bloquants": 0,
+   "liste": []
+  },
+  "traversee": {
+   "paires": 0,
+   "sur": 666,
+   "liste": [],
+   "sauts": [
+    "(2.5, 25.5) enjambement de 2.29 à 2.29 m : 5",
+    "(44.5, -15.5) chute de 4.68 à 3.95 m : 3",
+    "(44.5, 15.5) chute de 4.72 à 3.94 m : 3",
+    "(43.5, -15.5) chute de 4.85 à 4.07 m : 3",
+    "(43.5, 15.5) chute de 4.91 à 4.08 m : 3",
+    "(3.5, 27.5) enjambement de 2.29 à 2.29 m : 3",
+    "(3.5, -27.5) enjambement de 2.29 à 2.29 m : 3",
+    "(36.5, -16.5) chute de 4.58 à 3.85 m : 3",
+    "(36.5, -15.5) chute de 5.24 à 4.58 m : 3",
+    "(36.5, 16.5) chute de 4.58 à 3.83 m : 3"
+   ]
+  }
+ },
+ "hors": [
+  "A à 44.4 m de marche de sa base (20 à 30)",
+  "C praticable à 55 % (70 au moins)",
+  "C à 33.3 m de marche de sa base (20 à 30)",
+  "C : 0 couverts à 9 m (6 au moins)",
+  "C vu de plus d'un tiers des apparitions de son camp"
+ ],
+ "acceptes": [
+  "vue moyenne (m) 19.9 (12 à 18)",
+  "vues de plus de 60 m (%) 43.9 (15 à 30)",
+  "réseau en hauteur (%) 3.7 (5 à 12)",
+  "marche d'un camp à l'autre 111.9 à 122.4 m (90 à 105)"
+ ],
+ "bloquants": 0,
+ "minutes": 1.7
+}

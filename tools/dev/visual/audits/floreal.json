@@ -1,0 +1,216 @@
+{
+ "carte": "floreal",
+ "nom": "Hortus",
+ "date": "2026-10-21",
+ "mesures": {
+  "type": "open",
+  "vueMoyenne": 13.5,
+  "solVueCourte": 5.4,
+  "vuesPlus60m": 20.1,
+  "partPlace": 50.9,
+  "partEnHauteur": 8.3,
+  "marche": [
+   89.5,
+   102.9
+  ],
+  "routes": 6,
+  "impasses": 0,
+  "detour90": 1.37,
+  "carrefours": 4,
+  "repere": 65,
+  "goulot": {
+   "front": 20,
+   "passages": 11,
+   "detail": [
+    {
+     "ou": [
+      0.5,
+      9.5
+     ],
+     "largeur": 5,
+     "zone": "Great Greenhouse"
+    },
+    {
+     "ou": [
+      30,
+      9.5
+     ],
+     "largeur": 4,
+     "enHauteur": true,
+     "zone": "Plateau"
+    },
+    {
+     "ou": [
+      -12,
+      4.5
+     ],
+     "largeur": 2,
+     "zone": "Great Greenhouse"
+    },
+    {
+     "ou": [
+      13,
+      9.5
+     ],
+     "largeur": 2,
+     "enHauteur": true,
+     "zone": "Rock"
+    },
+    {
+     "ou": [
+      22.5,
+      -7.5
+     ],
+     "largeur": 1,
+     "zone": "Ravine"
+    },
+    {
+     "ou": [
+      24.5,
+      -7.5
+     ],
+     "largeur": 1,
+     "zone": "Ravine"
+    },
+    {
+     "ou": [
+      -20.5,
+      4.5
+     ],
+     "largeur": 1,
+     "zone": "Japanese garden"
+    },
+    {
+     "ou": [
+      -17.5,
+      6.5
+     ],
+     "largeur": 1,
+     "zone": "Great Greenhouse"
+    }
+   ]
+  },
+  "viragesSerres": 0,
+  "viragesOu": [],
+  "points": [
+   {
+    "nom": "A",
+    "point": [
+     0,
+     30
+    ],
+    "entrees": 2,
+    "praticable": 82,
+    "couverts9m": 6,
+    "marche": [
+     26.1,
+     83.2
+    ],
+    "vuDesApparitions": [
+     4,
+     0
+    ]
+   },
+   {
+    "nom": "B",
+    "point": [
+     -12,
+     0
+    ],
+    "entrees": 4,
+    "praticable": 77,
+    "couverts9m": 1,
+    "marche": [
+     53.5,
+     54
+    ],
+    "vuDesApparitions": [
+     0,
+     0
+    ]
+   },
+   {
+    "nom": "C",
+    "point": [
+     0,
+     -30
+    ],
+    "entrees": 3,
+    "praticable": 82,
+    "couverts9m": 6,
+    "marche": [
+     82.3,
+     26.8
+    ],
+    "vuDesApparitions": [
+     0,
+     4
+    ]
+   }
+  ]
+ },
+ "defauts": {
+  "navigation": [],
+  "decor": {
+   "portes": 0,
+   "pots": 0,
+   "affiches": 0,
+   "velos": 0,
+   "ponts": 0,
+   "sable": 0,
+   "recouvrements": 0,
+   "liste": []
+  },
+  "fentes": {
+   "fentes": 0,
+   "passeBalles": 0,
+   "trous": 0,
+   "marges": 177,
+   "margesPlus30cm": 177,
+   "liste": [
+    "marge 0.73 m (-26.73, -10.51) concrete",
+    "marge 0.73 m (-26.47, -9.89) concrete",
+    "marge 0.7 m (-15.4, 23.4) wood",
+    "marge 0.67 m (-35.8, -14.87) wood",
+    "marge 0.67 m (-35.64, -15.13) wood",
+    "marge 0.67 m (-35.96, -8.05) wood",
+    "marge 0.67 m (-36.24, -7.15) wood",
+    "marge 0.67 m (-36.24, 3.82) wood",
+    "marge 0.67 m (-35.96, 3.95) wood",
+    "marge 0.67 m (32.27, -10.03) wood",
+    "marge 0.67 m (32.4, -10.3) wood",
+    "marge 0.67 m (35.47, 10.78) wood",
+    "marge 0.67 m (34.56, 11.05) wood",
+    "marge 0.67 m (34.54, 8.81) wood",
+    "marge 0.67 m (34.39, 8.54) wood",
+    "marge 0.67 m (21.09, -12.81) wood",
+    "marge 0.67 m (21.36, -12.96) wood",
+    "marge 0.67 m (21.36, 9.13) wood",
+    "marge 0.67 m (21.51, 8.87) wood",
+    "marge 0.66 m (-35.96, -11.72) wood"
+   ]
+  },
+  "accroches": {
+   "nombre": 0,
+   "chemins": 160,
+   "liste": []
+  },
+  "zfight": {
+   "visibles": 0,
+   "bloquants": 0,
+   "liste": []
+  },
+  "traversee": {
+   "paires": 0,
+   "sur": 2556,
+   "liste": [],
+   "sauts": []
+  }
+ },
+ "hors": [
+  "marche d'un camp à l'autre 89.5 à 102.9 m (90 à 105)"
+ ],
+ "acceptes": [],
+ "bloquants": 0,
+ "minutes": 2.1
+}

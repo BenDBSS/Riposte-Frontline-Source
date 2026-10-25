@@ -1,0 +1,23 @@
+# Textes français laissés en clair exprès (un par ligne : « fichier: fragment du texte »), pour tools/dev/check_i18n.py.
+# Noms propres : un nom de carte est le même dans les deux langues.
+02-map.js: Kervénec
+# Nom de la langue dans le sélecteur d'Options (jamais traduit)
+09e-menus.js: Français
+# Libellé interne du journal de démarrage (BOT_T)
+09-game.js: début
+# Rapport de connexion et journal réseau : destinés au développeur, ils restent en français (README, « Langues »)
+09c-net.js: Rapport de connexion, Riposte: Frontline
+09c-net.js: Rôle :
+09c-net.js: Chemins trouvés
+09c-net.js: Relais de secours :
+09c-net.js: Serveur de jeu :
+09c-net.js: connexion directe impossible ou lente
+09c-net.js: connexion de
+09c-net.js: par le relais
+# Champs à compléter par l'éditeur avant la mise en production (build.py les signale)
+09k-legal.js: [Adresse postale
+09k-legal.js: [Adresse e-mail
+09k-legal.js: [région de la base
+# Bancs de réglage du couteau et des grenades en main (outils de développement, ?couteau=1, ?grenade=1) : leurs libellés restent en français, comme le rapport de connexion
+09zk-couteau-reglage.js: 
+09zj-grenade-reglage.js: 
