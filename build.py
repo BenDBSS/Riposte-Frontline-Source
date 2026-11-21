@@ -261,6 +261,7 @@ html=html.replace('<meta charset="utf-8">','<meta charset="utf-8">\n<meta http-e
 print("CSP :",len(inline),"scripts en ligne,",("relais "+host) if relay else "PeerJS")
 os.makedirs("dist", exist_ok=True)
 open("dist/riposte-frontline.html","w",encoding="utf-8").write(html)
+shutil.copyfile("dist/riposte-frontline.html","dist/index.html")
 with open("dist/version.json","w",encoding="utf-8") as f: f.write(json.dumps({"build":build_id,"version":log[0]["version"]})+"\n")
 # Serveur de jeu (serveur/, voir serveur/README.md) : son code est publié avec le jeu dans dist/serveur/ (le serveur s'y met à
 # jour seul, riposte-maj), et serveur/installer.sh, le script à coller à la création du serveur, est refait ici : il embarque
